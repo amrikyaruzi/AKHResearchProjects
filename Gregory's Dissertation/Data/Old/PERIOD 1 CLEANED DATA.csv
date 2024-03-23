@@ -1,0 +1,637 @@
+Age,Level of education,Occupation,Gravidity,Gestational age (weeks).,Number of fetus,Onset of labor,Mode of delivery,Mandatory second opinion inquired,Previos scar,Indication of caesarean section,Robson classification,Gender of the baby,BIRTH WEIGHT,APGAR SCORE 1ST MINUTE,APGAR SCORE 5TH MINUTE,Twin 2 birth weight,Twin 3 birthweight,Postpartum hemorrhage,Maternal hospital stay ( Days),Baby hospital day ( Days).,NICU ADMISSION,Reason of NICU ADMISSION,NHDU ADMISSION,Reason for NDHU admission,Presentation,Lie,Parity,Miscarriage,Living
+37,,Employed,3,37,1,Spontaneous,Vaginal delivery,,NO,NA,2,,1ST BABY WEIGHT KG,10,9,,,No,4,4,No,TTN,No,,cephalic,Longitudinal,2,0,2
+28,,Employed,2,40,1,Not applicable,Elective Caesarean section,,ONE,Previous scar,4,,3500,9,9,not applicable,not applicable,No,3,3,No,Not applicable,No,not applicable,cephalic,Longitudinal,1,0,1
+35,College or higher,Employed,3,40,1,Induction of labor,Vaginal delivery,,NO,NA,4,Female,3080,8,9,,,No,2,2,No,,No,,cephalic,longitudinal,2,0,1
+31,College or higher,Employed,2,38,1,Not applicable,Elective Caesarean section,,ONE,Previous scar,5,Male,3200,7,8,,,No,3,3,,,,,cephalic,Longitudinal,1,0,1
+38,College or higher,Employed,4,38,1,Not applicable,Elective Caesarean section,,NO,Maternal request,5,Female,3300,9,9,,,No,3,3,,,,,cephalic,Longitudinal,3,0,3
+30,College or higher,Self employed,1,39,1,Not applicable,Elective Caesarean section,,NO,BREECH PRESENTATION,6,Male,3500,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+34,College or higher,Employed,3,38,1,Induction of labor,Vaginal delivery,,NO,NA,4,Male,3200,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+37,Secondary education,House wife,3,38,2,Spontaneous,Elective Caesarean section,No,ONE,Previous scar in labor,2,Male,3500,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,0,2
+32,,Employed,3,39,1,Spontaneous,Vaginal delivery,No,NO,NA,3,Male,3250,9,10,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+29,Secondary education,Self employed,3,32,1,Spontaneous,Emergency Caesarean section,No,NO,Abruptio placentae,3,Female,2040,8,9,,,No,3,7,,,Yes,PREMATURITY,cephalic,Longitudinal,1,1,1
+35,College or higher,Government employee,4,40,1,Induction of labor,Vaginal delivery,,NO,NA,3,Female,3250,9,10,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,2
+27,Secondary education,House wife,3,39,1,Spontaneous,Vaginal delivery,No,NO,NA,3,Female,3070,9,10,,,No,2,2,No,,No,,cephalic,Longitudinal,1,1,1
+33,College or higher,Non government employee,1,35,1,Spontaneous,Vaginal delivery,No,NO,NA,10,Female,1999,8,9,,,No,2,4,No,,Yes,PREMATURITY,cephalic,Longitudinal,0,0,0
+36,College or higher,Non government employee,3,40,1,Spontaneous,Vaginal delivery,No,NO,NA,3,Male,3960,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+32,College or higher,Self employed,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,8,Female,3010,9,10,,,Yes,4,3,No,,No,NEONATAL JAUNDICE,cephalic,Longitudinal,1,0,1
+34,College or higher,Government employee,2,39,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,5,Male,3200,8,9,,,No,4,,No,,No,,cephalic,Longitudinal,1,0,1
+33,College or higher,Government employee,3,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,5,Male,3030,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,0,2
+30,Secondary education,Self employed,5,36,1,Not applicable,Emergency Caesarean section,No,ONE,Non reassuring fetal status+ONE PREVIOUS SCAR,5,Female,2900,8,9,,,No,5,3,No,,Yes,TTN,cephalic,Longitudinal,2,2,2
+33,College or higher,Government employee,4,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,5,Male,3400,8,9,,,No,4,,No,,No,,cephalic,Longitudinal,3,0,3
+35,Primary education,Self employed,6,37,1,Spontaneous,Vaginal delivery,,NO,NA,3,Female,2800,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,5,0,5
+33,College or higher,Non government employee,2,40,1,Induction of labor,Vaginal delivery,,NO,NA,4,Male,3720,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+33,College or higher,Government employee,5,37,1,Not applicable,Elective Caesarean section,,ONE,Previous scar,8,Male,4420,9,10,,,No,4,3,No,,No,,cephalic,Longitudinal,3,1,3
+35,College or higher,Government employee,4,38,1,Not applicable,Elective Caesarean section,,ONE,Previous scar,8,Female,3300,8,9,,,No,4,,No,,No,,cephalic,longitudinal,3,0,3
+32,College or higher,Government employee,3,40,1,Spontaneous,Vaginal delivery,,NO,NA,3,Male,3500,9,10,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+39,College or higher,Self employed,5,39,1,Spontaneous,Vaginal delivery,,NO,NA,3,Female,3470,9,10,,,No,2,2,No,,No,,cephalic,Longitudinal,3,1,3
+33,College or higher,Self employed,6,39,1,Not applicable,Elective Caesarean section,,ONE,Previous scar,4,Female,3320,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,5,0,5
+38,Secondary education,Self employed,2,27,1,Not applicable,Emergency Caesarean section,No,NO,SEVERE OLIGOHYDRAMNIOS+IVF CONCEPTION PRECIOUS BABY,10,Female,900,8,9,,,No,3,56,Yes,EXTREME PREMATURE,,,cephalic,Longitudinal,0,1,0
+32,College or higher,Self employed,2,38,1,Not applicable,Elective Caesarean section,,ONE,Previous scar,4,Male,2390,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,0,1
+21,Secondary education,House wife,1,40,1,Spontaneous,Vaginal delivery,,NO,NA,1,Female,2600,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+28,College or higher,Self employed,2,39,1,Spontaneous,Vaginal delivery,,NO,NA,1,Male,3490,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+27,Primary education,Self employed,2,38,1,Not applicable,Elective Caesarean section,,ONE,Previous scar,4,Female,3970,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,0,1
+30,College or higher,Government employee,4,38,1,Spontaneous,Emergency Caesarean section,,ONE,Previous scar in labor,8,Male,3490,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,1,2
+39,College or higher,Self employed,6,37,1,Spontaneous,Emergency Caesarean section,,NO,PMTC 1 WITH PROLONGED LABOR,3,Male,2990,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,3,2,3
+29,College or higher,House wife,1,39,1,Induction of labor,Vaginal delivery,,NO,NA,2,Male,3890,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,0,0,0
+33,College or higher,Non government employee,2,38,1,Not applicable,Elective Caesarean section,No,NO,TOKOPHOBIA,2,Male,3370,9,10,,,No,4,3,No,,No,,cephalic,Longitudinal,0,1,0
+34,College or higher,Self employed,4,38,1,Not applicable,Elective Caesarean section,,ONE,Previous scar,5,Male,2950,9,10,,,No,4,5,No,,Yes,"TRANSIENT TACHYPNEA OF NEWBORN, SEPSIS",cephalic,Longitudinal,1,2,1
+30,College or higher,Self employed,1,40,1,Spontaneous,Vaginal delivery,,NO,NA,1,Male,2900,9,10,,,No,1,1,No,,No,,cephalic,Longitudinal,0,0,0
+37,College or higher,House wife,5,37,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,3050,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,4,0,4
+29,Secondary education,House wife,1,39,1,Spontaneous,Vaginal delivery,Yes,NO,NA,,Male,3300,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+22,None,House wife,1,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3310,9,9,,,No,1,1,No,,No,,cephalic,Longitudinal,0,0,0
+27,College or higher,Government employee,1,39,1,Spontaneous,Vaginal delivery,Yes,NO,NA,,Male,3290,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,1,0
+27,Secondary education,House wife,4,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3690,8,10,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,3
+35,College or higher,Government employee,3,40,1,Not applicable,Elective Caesarean section,No,NO,Compound Presentation,,Female,2870,9,10,,,No,3,3,No,,No,,breech,Longitudinal,2,0,2
+35,Secondary education,House wife,5,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3510,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,4,0,4
+33,College or higher,,5,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,3450,7,8,,,No,3,3,No,,No,,cephalic,Longitudinal,3,1,3
+27,College or higher,Non government employee,6,39,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,3070,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,4,1
+32,Secondary education,House wife,4,36,2,Not applicable,Elective Caesarean section,No,ONE,Previous scar in labor,,,2400,8,9,2200,,No,5,5,No,,Yes,Neonatal jaundice,cephalic,Longitudinal,2,1,2
+38,College or higher,Non government employee,2,37,1,Spontaneous,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Female,2600,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+35,Secondary education,Non government employee,2,39,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,2950,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+42,College or higher,Non government employee,6,40,1,Not applicable,Emergency Caesarean section,No,NO,Failed induction of labor,,Male,3470,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,3,2,2
+31,College or higher,Government employee,1,39,1,Not applicable,Elective Caesarean section,No,NO,Maternal request,,Male,3450,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+33,College or higher,House wife,4,40,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,3170,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,2,1
+33,College or higher,House wife,3,41,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3190,9,9,,,No,1,1,No,,No,,cephalic,Longitudinal,2,0,2
+36,Secondary education,House wife,6,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Male,2660,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,3,2,3
+37,Secondary education,House wife,6,39,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Male,3300,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,3,3
+35,College or higher,Non government employee,3,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3810,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+29,College or higher,Government employee,4,41,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3510,7,9,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,2
+30,College or higher,Government employee,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,3170,9,9,,,Yes,4,4,No,,No,,cephalic,Longitudinal,1,0,1
+32,College or higher,House wife,1,41,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3600,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+37,College or higher,House wife,3,40,1,Spontaneous,Vaginal delivery,Yes,NO,NA,,Male,2900,3,3,,,No,2,,Yes,Low score,No,,breech,Longitudinal,2,0,2
+25,College or higher,House wife,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2360,8,9,,,No,1,1,No,,No,,cephalic,Longitudinal,1,0,1
+37,College or higher,Human resource officer,3,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,4480,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+28,Secondary education,House wife,1,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,2790,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+27,College or higher,House wife,1,39,1,Spontaneous,Elective Caesarean section,No,NO,Failed induction of labor,,Male,3430,9,10,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+33,None,House wife,3,40,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,4090,8,9,,,No,2,2,No,,Yes,Macrosomia,cephalic,Longitudinal,2,0,2
+36,College or higher,House wife,5,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3150,9,9,,,No,1,1,No,,No,,cephalic,Longitudinal,2,2,2
+23,Secondary education,House wife,1,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3130,7,8,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+36,College or higher,Government employee,4,39,1,Spontaneous,Emergency Caesarean section,Yes,NO,Obstructed labor,,Male,3100,5,7,,,No,4,4,No,,Yes,Low score+ Meconium grade 4,cephalic,Longitudinal,3,0,2
+30,College or higher,House wife,5,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3240,9,10,,,No,2,2,No,,No,,cephalic,Longitudinal,4,0,4
+38,College or higher,Non government employee,4,37,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Male,3800,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,3,0,3
+26,College or higher,House wife,1,38,1,Spontaneous,Emergency Caesarean section,Yes,NO,Poor perogression of labor,,Male,3660,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+39,College or higher,Government employee,3,37,1,Spontaneous,Emergency Caesarean section,Yes,ONE,Previous scar in labor,,Male,3250,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,0,0
+31,College or higher,Non government employee,1,41,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3770,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+33,College or higher,House wife,3,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,2710,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,1,1
+32,College or higher,House wife,1,40,1,Spontaneous,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Female,2540,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+38,Primary education,House wife,3,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Male,3540,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,0,2
+34,College or higher,House wife,5,38,1,Not applicable,Elective Caesarean section,No,NO,Huge Multiple fibroids,,Female,2800,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,3,1,3
+32,College or higher,House wife,3,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2840,8,9,,,No,4,4,No,,No,,cephalic,Longitudinal,2,0,2
+31,Secondary education,House wife,4,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Male,3400,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,3,0,3
+26,No formal education,House wife,1,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,2970,7,9,,,No,1,1,No,,No,,cephalic,Longitudinal,0,0,0
+32,College or higher,Enterpreneur,1,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3460,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+29,College or higher,House wife,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2750,8,9,,,No,1,1,No,,No,,cephalic,Longitudinal,1,0,1
+32,College or higher,Non government employee,2,38,1,Spontaneous,Vaginal delivery,No,ONE,Previous scar,,,3720,7,8,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+24,College or higher,Non government employee,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3290,8,9,,,No,1,1,No,,No,,cephalic,Longitudinal,1,0,1
+37,College or higher,Non government employee,1,29,1,Spontaneous,Emergency Caesarean section,Yes,NO,Preterm prelabour rupture of membrane,,Female,800,3,4,1140,,No,18,more than 18days,Yes,Prematurity with extremely/very low birth weight,No,,breech,Longitudinal,0,0,0
+29,College or higher,Government employee,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Male,2580,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+32,College or higher,Non government employee,4,37,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,3100,9,9,,,No,4,3,No,,No,,breech,Longitudinal,2,2,2
+32,College or higher,Government employee,3,39,1,Spontaneous,Emergency Caesarean section,Yes,NO,Term pregnancy in labor with malposition-0PP,,Male,4100,6,9,,,No,4,4,,,Yes,Macrosimia,cephalic,Longitudinal,2,1,2
+29,College or higher,Government employee,0,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3330,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+35,College or higher,Non government employee,0,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3060,8,9,,,Yes,3,2,No,,No,,cephalic,Longitudinal,0,0,0
+30,College or higher,Non government employee,3,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3660,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,1,1,1
+32,College or higher,Non government employee,3,38,1,Not applicable,Elective Caesarean section,Yes,TWO,Previous scar,,Female,3610,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,2
+30,College or higher,Government employee,3,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3090,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,2,1,
+42,College or higher,Non government employee,3,41,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,3140,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,2
+36,College or higher,Non government employee,3,41,1,Spontaneous,Emergency Caesarean section,Yes,NO,Malpresentation,,Female,3300,8,9,,,No,5,4,No,,No,,cephalic,Longitudinal,2,0,2
+29,College or higher,Non government employee,2,40,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3330,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+34,College or higher,Government employee,3,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Female,3610,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,2
+33,College or higher,Non government employee,2,36,1,Not applicable,Elective Caesarean section,Yes,NO,Bad obstretic history,,Female,3090,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,1,0
+28,Secondary education,House wife,3,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,3400,9,9,,,No,7,3,No,,No,,cephalic,Longitudinal,2,0,2
+30,College or higher,Self employed,1,40,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,3360,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,0,0,0
+40,No formal education,Non government employee,1,26,2,Spontaneous,Emergency Caesarean section,Yes,NO,Pre term premature rapture of membrane with cord prolapse in twin pregnacy,,"Twins: 1st: Mle, 2nd: Female",740,8 both twins,9 both twins,730,,No,4,,Yes,Very low birth weight,No,,cephalic,Longitudinal,0,1,0
+32,,Procurement,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3000,9,9,,,Yes,3,2,No,,No,,cephalic,Longitudinal,1,0,1
+36,College or higher,Teacher,3,41,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,3810,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,2,0,2
+32,College or higher,Non government employee,1,38,1,Not applicable,Elective Caesarean section,No,NO,Term pregnancy with huge fibroids,,Male,3600,7,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+40,College or higher,Government employee,2,38,1,Spontaneous,Emergency Caesarean section,Yes,ONE,Previous scar with a failed vaginal birth after caesarean section,,Male,4130,9,9,,,No,4,3,No,,Yes,Mcrosomia,cephalic,Longitudinal,1,0,1
+24,College or higher,House wife,1,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3230,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,0,0,0
+24,College or higher,Teacher,1,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3470,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+33,Secondary education,Actress,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3500,8,9,,,Yes,3,2,No,,Yes,Transient tachypnea of newborn,cephalic,Longitudinal,1,0,1
+38,College or higher,Non government employee,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Male,4380,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+33,College or higher,Self employed,4,39,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,3020,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,1,2
+30,College or higher,Non government employee,1,40,1,Spontaneous,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,,3760,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+32,Secondary education,Government employee,1,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3270,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+32,College or higher,Non government employee,3,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,3400,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,2
+32,Secondary education,House wife,4,40,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,2790,8,8,,,No,3,3,No,,No,,cephalic,Longitudinal,1,2,0
+32,College or higher,Non government employee,4,41,1,Spontaneous,Vaginal delivery,Yes,NO,NA,,Male,4110,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,1,2
+29,Secondary education,House wife,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3620,9,9,,,No,1,1,No,,No,,cephalic,Longitudinal,1,0,1
+30,Secondary education,House wife,4,38,1,Not applicable,Elective Caesarean section,No,TWO,Previous scar,,Female,3200,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,1,2
+36,College or higher,Government employee,1,38,1,Not applicable,Elective Caesarean section,No,NO,CPD/Elderly primigravida,,Male,3130,9,9,,,No,3,3,No,,No,,breech,Longitudinal,0,0,0
+30,College or higher,Non government employee,2,36,1,Not applicable,Emergency Caesarean section,Yes,ONE,Previous scar,,Male,2680,9,10,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+38,College or higher,Self employed,5,38,1,Not applicable,Elective Caesarean section,No,TWO,Previous scar,,Male,2700,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,2,2
+37,College or higher,Non government employee,3,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2570,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+38,College or higher,Self employed,4,40,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,3250,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,3
+32,College or higher,Non government employee,1,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3150,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,0
+37,College or higher,Non government employee,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,3600,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+34,no formal education,Unemployed,8,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,4500,7,9,,,No,2,2,No,,No,,cephalic,Longitudinal,6,1,6
+30,College or higher,Government employee,2,37,1,Not applicable,Elective Caesarean section,,ONE,Previous scar,,Female,4380,9,9,,,No,4,4,No,,No,,cephalic,Longitudinal,1,0,0
+42,College or higher,Non government employee,3,40,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,3625,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,1,1
+34,College or higher,Non government employee,1,35,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3050,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+30,College or higher,Non government employee,1,38,1,Not applicable,Elective Caesarean section,No,NO,CPD,,Female,3360,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+28,College or higher,Businesswoman,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3780,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+33,College or higher,Government employee,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,3580,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+29,College or higher,Non government employee,4,38,1,Not applicable,Elective Caesarean section,No,TWO,Previous scar,,Female,5230,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,3,0,3
+38,College or higher,UNEMPLOYED,4,40,1,Spontaneous,Vaginal delivery,Yes,NO,NA,,Male,4970,9,9,,,Yes,1,1,No,,Yes,Macrosomia,cephalic,Longitudinal,3,0,3
+30,College or higher,Self employed,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2990,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+33,College or higher,Self employed,1,39,1,Spontaneous,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Female,2770,6,8,,,No,3,3,,,Yes,Meconium,cephalic,Longitudinal,0,0,0
+27,College or higher,Self employed,1,40,1,Induction of labor,Emergency Caesarean section,Yes,NO,Failed induction of labor,,Male,3100,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+31,College or higher,Self employed,2,40,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,3110,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+27,College or higher,Self employed,1,38,1,Not applicable,Elective Caesarean section,No,NO,Transverse lie,,Female,3600,8,9,,,No,3,3,No,,No,,breech,Longitudinal,0,0,0
+31,College or higher,Self employed,5,37,1,Spontaneous,Emergency Caesarean section,Yes,THREE,Previous scar in labor,,Male,2950,8,9,,,No,4,7,,persistent respiratory distress,Yes,TTN,cephalic,Longitudinal,3,1,3
+27,College or higher,Non government employee,3,41,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3600,9,10,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+32,College or higher,Rsearcher,3,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,4080,3,7,,,Fourth degree cervical tear,3,,No,,Yes,"Birth asphyxia, Macrosomia",cephalic,Longitudinal,2,0,2
+27,College or higher,Non government employee,3,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3170,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,2,1,2
+37,College or higher,Self employed,1,38,1,Not applicable,Elective Caesarean section,Yes,NO,Symmetrical intrauterine fetal growth restriction,,Male,2800,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+37,College or higher,Self employed,1,39,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3350,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,0,0,0
+28,Secondary education,House wife,2,34,2,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,"1st twin: female, 2nd twin: male",2080,8,9,,,Yes,6 days,>10days,No,,Yes,Low birth weight,cephalic,Longitudinal,1,0,2
+36,College or higher,Government employee,3,39,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar+MALPRESENTATION,,Male,3740,8,9,,,No,4,3,No,,No,,breech,Longitudinal,2,0,2
+32,College or higher,Self employed,5,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,3070,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,3,1
+22,Secondary education,Self employed,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3240,7,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+26,College or higher,Loan officer,2,36,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,2710,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,0,1
+36,College or higher,Government employee,4,38,1,Not applicable,Elective Caesarean section,Yes,THREE,Previous scar,,Female,3340,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,3,0,3
+26,College or higher,Nurse,2,37,1,Not applicable,Emergency Caesarean section,Yes,NO,Huge multiple uterine fibroids,,Female,2260,9,9,,,No,3,3,No,,Yes,Low birth weight,cephalic,Longitudinal,1,1,1
+34,College or higher,Self employed,3,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,3000,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,3,0,2
+32,College or higher,Non government employee,6,39,1,Not applicable,Elective Caesarean section,Yes,TWO,Previous scar,,Female,3460,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,3,2,3
+35,College or higher,Non government employee,3,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3760,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+32,College or higher,Secretary,2,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,3400,8,9,,,No,4,4,No,,No,,breech,Longitudinal,1,0,1
+33,College or higher,Social worker,3,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3770,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,2,2
+31,College or higher,Self employed,5,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3130,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,2,2
+29,College or higher,Self employed,3,40,1,Spontaneous,Emergency Caesarean section,Yes,NO,Poor progress of labor,,Male,4310,3,8,,,No,3,>5,No,,Yes,"Birth asphyxia, Mcrosomia",cephalic,Longitudinal,2,0,2
+37,College or higher,Banker,4,38,1,Not applicable,Elective Caesarean section,Yes,THREE,Previous scar,,Male,3500,9,10,,,No,3,2,No,,No,,cephalic,Longitudinal,3,0,0
+30,College or higher,Employed,2,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3100,7,9,,,No,3,2,No,,No,,cephalic,Longitudinal,1,0,1
+28,College or higher,Self employed,4,38,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,3300,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,3
+21,Secondary education,House wife,1,38,1,Spontaneous,Emergency Caesarean section,Yes,NO,Obstructed labor,,Male,3600,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+34,College or higher,Employed,2,37,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,3600,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,0,1
+38,College or higher,Self employed,3,38,1,Not applicable,Elective Caesarean section,Yes,TWO,Previous scar,,Female,2980,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,2
+39,College or higher,Employed,3,38,1,Spontaneous,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Female,2500,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,1,1
+38,College or higher,Employed,2,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,3470,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,2,0,1
+34,College or higher,Employed,2,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Female,3720,9,10,,,No,3,2,No,,No,,cephalic,Longitudinal,1,0,1
+35,College or higher,Employed,6,37,1,Not applicable,Elective Caesarean section,Yes,TWO,Previous scar,,Male,3050,7,9,,,No,4,3,No,,No,,cephalic,Longitudinal,3,2,3
+31,College or higher,Employed,6,38,1,Not applicable,Elective Caesarean section,Yes,TWO,Previous scar,,Male,3590,6,8,,,No,4,3,No,,Yes,Transient tachypnea of newborn,cephalic,Longitudinal,2,3,2
+29,College or higher,Employed,1,37,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3700,7,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+33,Secondary education,House wife,4,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3400,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,3
+40,College or higher,Self employed,7,37,1,Not applicable,Elective Caesarean section,Yes,THREE,Previous scar,,Male,3280,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,4,2,4
+24,College or higher,Employed,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3570,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+27,College or higher,Self employed,1,38,1,Not applicable,Elective Caesarean section,Yes,NO,Twin pregnancy and maternal request,,Second twin: female,2600,9 both twins,9 both twins,2500,,No,3,2,No,,No,,cephalic,Longitudinal,0,0,0
+27,College or higher,Employed,1,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,2820,9,10,,,No,3,2,No,,No,,cephalic,Longitudinal,0,0,0
+34,College or higher,Self employed,4,37,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3250,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,3
+33,College or higher,Employed,1,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,2930,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+30,College or higher,Employed,1,38,1,Spontaneous,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Male,3110,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+31,College or higher,Employed,3,39,1,Not applicable,Elective Caesarean section,Yes,NO,Bad Obstetric history,,Female,3320,9,9,,,No,5,4,No,,No,,cephalic,Longitudinal,0,2,0
+36,College or higher,Employed,4,37,1,Not applicable,Elective Caesarean section,Yes,TWO,Previous scar,,Female,2690,9,10,,,No,7,6,No,,No,,cephalic,Longitudinal,2,1,2
+28,College or higher,Self employed,4,33,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,2000,?,?,,,No,4,>5,No,,Yes,Transient tachypnea of newborn,cephalic,Longitudinal,1,2,1
+34,College or higher,Employed,4,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,2920,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,2
+24,College or higher,Employed,1,38,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,3700,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+29,College or higher,Employed,2,40,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Female,3560,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,0,1
+28,College or higher,Self employed,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2400,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,0,1,0
+33,College or higher,Employed,2,39,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,3430,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,1,0,1
+35,College or higher,House wife,3,39,1,Not applicable,Elective Caesarean section,Yes,TWO,Previous scar,,Male,3470,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,2,0,2
+29,College or higher,Employed,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3820,9,10,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+39,College or higher,Employed,3,41,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3620,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+29,Secondary education,House wife,3,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3600,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+29,College or higher,Employed,1,40,1,Induction of labor,Emergency Caesarean section,Yes,NO,Maternal request following induction of labor,,Female,3490,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+37,College or higher,Employed,4,38,1,Not applicable,Elective Caesarean section,Yes,TWO,Previous scar,,Female,3060,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,3,0,3
+38,College or higher,Employed,4,38,1,Not applicable,Elective Caesarean section,Yes,NO,Macrosomia,,Female,4310,9,10,,,No,4,3,No,,Yes,"Macrosomia, for RBG monitoring",cephalic,Longitudinal,3,0,3
+28,College or higher,Employed,1,39,1,Spontaneous,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Male,2630,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+38,College or higher,Employed,3,40,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,4200,8,9,,,No,4,3,No,,Yes,Macrosomia,cephalic,Longitudinal,2,0,2
+31,College or higher,Self employed,2,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3450,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,1,1,0
+26,College or higher,Employed,1,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3180,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+27,College or higher,Employed,1,41,1,Induction of labor,Emergency Caesarean section,Yes,NO,Failed induction of labor,,Male,3330,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,
+29,College or higher,Employed,3,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3360,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,1,2
+33,College or higher,Employed,4,37,1,Not applicable,Elective Caesarean section,Yes,TWO,Previous scar,,Female,3650,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,3,0,2
+22,Secondary education,House wife,2,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2810,7,8,,,No,2,>3,Yes,Respiratory distress,No,,cephalic,Longitudinal,1,0,1
+27,College or higher,Employed,1,41,1,Not applicable,Elective Caesarean section,Yes,NO,Macrosomia,,Female,4380,8,9,,,No,3,3,No,,Yes,Macrosomia,cephalic,Longitudinal,0,0,0
+38,College or higher,Self employed,3,39,1,Not applicable,Emergency Caesarean section,Yes,TWO,Previous scar in labor,,Male,3400,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+33,College or higher,Self employed,3,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2800,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,2
+35,College or higher,Employed,6,34,1,Not applicable,Emergency Caesarean section,Yes,YES,Previous scar in labor,,Male,3060,9,9,,,No,4,3,No,,No,Preterm,cephalic,Longitudinal,3,2,3
+23,Secondary education,House wife,1,36,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2700,7,9,,,No,2,>3,No,,Yes,Respiratory distress,cephalic,Longitudinal,0,0,0
+33,College or higher,Employed,2,37,1,Not applicable,Elective Caesarean section,Yes,NO,"Bad obstretic history, hypertensive disorders in pregnancy",,Male,3590,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,1,0
+33,College or higher,Employed,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3750,9,10,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+34,College or higher,Employed,3,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,4000,8,9,,,No,2,2,No,,Yes,Macrosomia,cephalic,Longitudinal,2,0,2
+38,College or higher,Employed,3,40,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3370,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,1,1
+29,College or higher,Employed,2,37,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,2400,8,9,,,No,4,3,No,,Yes,Low birth weight,cephalic,Longitudinal,0,1,0
+34,College or higher,Self employed,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,4060,5,8,,,No,3,2,No,,Yes,Macrosomia,cephalic,Longitudinal,1,0,1
+29,College or higher,Employed,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3020,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,1,0,1
+31,College or higher,Employed,3,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3150,9,10,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+26,College or higher,Employed,1,41,1,Spontaneous,Emergency Caesarean section,Yes,NO,Poor progress of labour,,Male,3430,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,0,0,0
+29,Secondary education,House wife,5,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3160,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,4,0,4
+36,College or higher,Employed,3,39,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,3420,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,3
+32,College or higher,Self employed,3,37,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,2950,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,2
+29,College or higher,Employed,3,39,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,2700,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,2,0,2
+27,College or higher,Employed,2,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3460,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+32,College or higher,Employed,4,36,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,2480,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,3,0,2
+27,College or higher,Employed,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,4080,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+38,College or higher,Employed,3,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,2780,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,1,2
+25,College or higher,Employed,1,39,1,Induction of labor,Emergency Caesarean section,Yes,NO,Failed induction of labor,,Female,2980,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+30,College or higher,Employed,1,38,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,2970,8,9,,,No,4,2,No,,No,,cephalic,Longitudinal,1,0,0
+26,College or higher,Employed,1,41,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3000,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,0,0,0
+37,College or higher,Employed,4,41,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,3870,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,3,0,3
+22,Secondary education,Self employed,1,40,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3420,4,6,,,Yes,4,>4,No,,Yes,Birth asphyxia,cephalic,Longitudinal,0,0,0
+27,College or higher,Employed,1,39,1,Not applicable,Elective Caesarean section,Yes,NO,Term pregnancy with big baby,,Female,4340,8,9,,,No,4,3,No,,Yes,Macrosomia,cephalic,Longitudinal,0,0,0
+29,Secondary education,Employed,2,40,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,3490,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,1,0,1
+29,College or higher,Employed,2,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,3180,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,0,1
+34,College or higher,Banker,4,40,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3520,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,3
+23,Secondary education,Self employed,1,41,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,2900,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+25,College or higher,Student,1,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2770,3,7,,,No,3,>3,No,,Yes,Birth asphyxia,cephalic,Longitudinal,0,0,0
+33,College or higher,Self employed,4,40,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,3560,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,3
+32,College or higher,Employed,3,39,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,4000,9,9,,,No,4,3,No,,Yes,Macrosomia,cephalic,Longitudinal,2,0,2
+40,Secondary education,House wife,7,36,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,2550,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,5,1,4
+27,College or higher,Self employed,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3030,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,1,0,1
+30,College or higher,Self employed,1,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3070,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+34,College or higher,Employed,3,39,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,4500,9,10,,,No,3,2,No,,No,,cephalic,Longitudinal,2,0,2
+42,College or higher,Employed,7,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3800,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,5,1,5
+29,College or higher,House wife,3,38,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Female,3640,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,1,2
+35,College or higher,Employed,4,39,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Male,4090,8,9,,,No,3,3,No,,Yes,macrosomia,cephalic,Longitudinal,3,0,3
+38,College or higher,Employed,5,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3310,8,8,,,No,2,2,No,,No,,cephalic,Longitudinal,3,1,3
+27,College or higher,Employed,1,40,1,Not applicable,Elective Caesarean section,No,NO,Big baby,,Female,3980,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+32,College or higher,Employed,1,40,1,Not applicable,Elective Caesarean section,No,NO,"Severe Oligohydramnios,",,Female,3490,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+29,College or higher,Employed,1,38,1,Not applicable,Emergency Caesarean section,Yes,NO,Severe pre eclampsia with breech presentation,,Female,3020,8,9,,,Yes,3,2,No,,No,,breech,Longitudinal,0,0,0
+32,College or higher,Self employed,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,900,,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,0
+37,no formal education,House wife,6,38,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Female,3120,3,7,,,No,3,3,No,,Yes,Birth asphyxia,cephalic,Longitudinal,5,0,5
+30,College or higher,Self employed,3,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3420,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,0
+37,College or higher,Employed,5,37,1,Spontaneous,Emergency Caesarean section,Yes,YES,Previous scar in labor,,Male,3860,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,3,1,3
+34,Secondary education,Self employed,2,39,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,2990,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,0,1
+27,College or higher,House wife,2,38,1,Spontaneous,Emergency Caesarean section,No,ONE,Previous scar in labor,,Male,3270,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,
+29,no formal education,House wife,4,37,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Female,3460,9,9,,,No,4,4,No,,No,,cephalic,Longitudinal,3,0,3
+41,College or higher,Self employed,4,38,1,Not applicable,Vaginal delivery,No,NO,NA,,Female,3360,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,3
+32,College or higher,Employed,2,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,3240,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,0,1
+35,College or higher,Employed,5,37,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Male,3560,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,3,1
+33,College or higher,Employed,1,38,1,Not applicable,Elective Caesarean section,Yes,NO,Maternal request,,Female,2800,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,0,0,0
+29,College or higher,Self employed,3,38,1,Spontaneous,Emergency Caesarean section,Yes,YES,Previous scar in labor,,Male,2940,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,2,0,1
+31,College or higher,Employed,4,38,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Female,3900,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,1,2
+25,College or higher,Self employed,1,40,1,Spontaneous,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Male,3400,7,8,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+40,College or higher,Employed,5,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3580,8,9,,,No,2,1,No,,No,,cephalic,Longitudinal,4,0,4
+40,Secondary education,unemployed,2,40,1,Spontaneous,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Male,3500,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+29,College or higher,Employed,2,41,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,3900,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+40,no formal education,Self employed,7,37,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2770,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,5,2,3
+31,College or higher,Employed,3,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2360,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+31,College or higher,Employed,1,32,1,Not applicable,Emergency Caesarean section,Yes,NO,Pre eclampsia with severe features,,Female,1200,8,9,,,No,4,>14,Yes,Premature with very low birth weight,,,cephalic,Longitudinal,0,0,0
+28,College or higher,Employed,2,38,1,Not applicable,Vaginal delivery,No,NO,NA,,Male,3240,9,9,,,No,1,1,No,,No,,cephalic,Longitudinal,1,0,1
+32,College or higher,Self employed,3,38,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Female,3150,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+37,College or higher,Employed,5,26,1,Not applicable,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Female,800,7,8,,,No,13,>14,Yes,Premature with very low birth weight,No,,breech,Longitudinal,3,1,3
+28,no formal education,unemployed,2,41,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,2950,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+28,Secondary education,House wife,5,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3400,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,2,2
+33,no formal education,Self employed,2,39,1,Spontaneous,Emergency Caesarean section,Yes,ONE,Previous scar in labor,,Male,4200,8,9,,,No,3,3,No,,Yes,Macrosomia,cephalic,Longitudinal,1,0,1
+32,College or higher,Self employed,3,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3260,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,2,1,2
+42,Secondary education,Self employed,4,40,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,4100,7,9,,,No,1,1,No,,Yes,Macrosomia,cephalic,Longitudinal,3,0,3
+35,College or higher,Employed,4,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3180,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,1,2
+34,College or higher,Employed,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,4680,9,9,,,No,2,2,No,,Yes,macrosomia,cephalic,Longitudinal,1,0,1
+37,College or higher,Self employed,7,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,3400,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,6,0,6
+25,Secondary education,Self employed,1,39,1,Not applicable,Elective Caesarean section,No,NO,Maternal request,,Male,3160,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+25,College or higher,Employed,3,41,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,3510,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+27,College or higher,Self employed,1,40,1,Spontaneous,Emergency Caesarean section,Yes,NO,Pre labour rupture of membrane +bMaternal request in labor,,Male,4260,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+37,College or higher,Employed,1,38,1,Not applicable,Vaginal delivery,No,NO,NA,,Female,2930,7,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+31,Secondary education,House wife,4,41,1,Not applicable,Elective Caesarean section,No,NO,Post date + Presumed Big baby,,Female,3400,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,3,0,3
+30,College or higher,Employed,1,38,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,2280,5,7,,,No,2,,No,,Yes,Birth asphyxia,cephalic,Longitudinal,0,0,0
+35,College or higher,Employed,4,39,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Female,3520,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,1,2
+36,Secondary education,House wife,3,37,1,Not applicable,Vaginal delivery,No,NO,NA,,Male,2890,8,9,,,No,1,1,No,,No,,cephalic,Longitudinal,2,0,2
+28,College or higher,Self employed,2,41,1,Induction of labor,Emergency Caesarean section,Yes,NO,Obstructed labor,,Male,3220,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,1,0
+29,College or higher,Employed,1,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3510,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+31,Primary education,House wife,3,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3290,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+26,College or higher,Employed,1,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3240,9,10,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+36,College or higher,Self employed,3,38,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Male,3860,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,0,2
+26,College or higher,Self employed,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3400,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+33,College or higher,Employed,4,39,1,Not applicable,Elective Caesarean section,No,NO,Bad Obstetrics History,,Female,3660,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,1,2
+29,College or higher,Employed,1,38,1,Not applicable,Elective Caesarean section,No,NO,Placentae previa/low-lying placentae,,Female,2980,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+32,College or higher,Self employed,1,40,1,Induction of labor,Emergency Caesarean section,No,NO,Failed induction of labor,,Female,4400,6,9,,,No,3,3,No,,Yes,Macrosomia,cephalic,Longitudinal,0,0,0
+29,College or higher,Employed,1,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3340,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+39,College or higher,Employed,6,38,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Male,3500,8,10,,,No,3,3,No,,No,,cephalic,Longitudinal,4,1,4
+36,College or higher,Employed,2,39,1,Not applicable,Elective Caesarean section,,ONE,Previous scar,,Female,2790,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+35,College or higher,Employed,3,38,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Male,3020,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,0,2
+39,College or higher,Employed,6,36,1,Spontaneous,Emergency Caesarean section,Yes,YES,Previous scar in labor,,Female,4060,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,4,1
+28,College or higher,Employed,3,40,1,Not applicable,Elective Caesarean section,No,YES,Big baby + Previous scar,,Female,4560,8,9,,,No,3,3,No,,Yes,Macrosomia,cephalic,Longitudinal,1,1,1
+36,College or higher,Employed,4,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3540,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,3
+32,no formal education,House wife,4,37,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Female,3840,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,1,2
+33,College or higher,unemployed,3,37,1,Spontaneous,Emergency Caesarean section,No,TWO,2 Previous scars+ Placenta previa,,Female,2620,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,0,2
+29,College or higher,Self employed,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3380,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+34,College or higher,Employed,4,41,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,2960,8,9,,,No,1,1,No,,No,,cephalic,Longitudinal,2,1,2
+29,No formal education,Self employed,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,3090,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+35,No formal education,unemployed,3,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3250,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+35,College or higher,Employed,2,37,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3060,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+31,College or higher,Employed,1,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3270,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+31,College or higher,Employed,2,38,1,Not applicable,Elective Caesarean section,No,NO,breech presentation+ PIH,,Female,2500,6,8,,,No,4,,No,,No,,breech,Longitudinal,1,1,0
+30,College or higher,unemployed,1,41,1,Induction of labor,Emergency Caesarean section,Yes,NO,Failed induction of labor,,,3900,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+30,No formal education,House wife,3,38,1,Spontaneous,Emergency Caesarean section,Yes,YES,Previous scar in labor,,,3390,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,0,2
+31,College or higher,Employed,1,36,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2530,0,0,,,No,6,IUFD,No,,No,,cephalic,Longitudinal,0,0,0
+32,College or higher,Self employed,3,38,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3020,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+30,College or higher,Employed,2,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Female,3380,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,1,0,1
+32,College or higher,Employed,3,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3550,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,0
+26,Secondary education,House wife,2,33,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,2250,8,9,,,No,3,>3,No,,Yes,Prematurity,cephalic,Longitudinal,1,0,1
+39,Secondary education,House wife,5,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3620,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,4,0,4
+32,College or higher,Employed,3,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,2960,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+44,College or higher,House wife,1,38,1,Not applicable,Elective Caesarean section,Yes,NO,Elderly primigravida,,Female,2470,8,9,,,No,3,>3,No,,Yes,Low birth weight,cephalic,Longitudinal,0,0,0
+27,College or higher,Employed,1,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,820,9,,,,No,3,2,No,,No,,cephalic,Longitudinal,0,0,0
+30,College or higher,Employed,2,40,1,Not applicable,Emergency Caesarean section,Yes,ONE,Non reassuring fetal status,,Male,3320,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,1,0
+31,College or higher,Employed,2,37,1,Spontaneous,Emergency Caesarean section,Yes,ONE,Previous scar in labor,,Male,2900,7,9,,,No,3,>3,No,,Yes,Respiratory distress,breech,Longitudinal,1,0,1
+36,College or higher,Employed,1,37,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3160,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,0,0,0
+33,College or higher,Employed,3,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3800,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+32,College or higher,Employed,2,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,4100,8,9,,,No,4,3,No,,Yes,Macrosomia,cephalic,Longitudinal,1,0,1
+36,Secondary education,House wife,4,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3200,9,10,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,3
+29,College or higher,Employed,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3400,8,10,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+31,College or higher,Employed,2,37,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,3300,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,0,1
+32,College or higher,Employed,1,40,1,Not applicable,Emergency Caesarean section,Yes,NO,Severe oligohydromnios,,Male,2810,8,9,,,No,3,3,No,,Yes,Respiratory distress,cephalic,Longitudinal,0,0,0
+26,College or higher,Employed,1,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2950,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,0,0,0
+28,College or higher,Self employed,3,37,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3000,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+34,Secondary education,House wife,7,34,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2900,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,6,0,6
+35,College or higher,Employed,3,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,3580,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,1,2
+25,Secondary education,House wife,2,28,1,Not applicable,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Male,800,0,0,,,No,7,0,No,,No,,cephalic,Longitudinal,0,1,0
+27,College or higher,Employed,5,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,2830,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,2,2
+26,College or higher,Self employed,2,40,1,Spontaneous,Emergency Caesarean section,Yes,NO,Obstructed labor,,Male,4000,0,6,,,No,2,>2,Yes,Severe birth asphyxia,No,,cephalic,Longitudinal,1,0,1
+30,College or higher,Student,5,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3660,8,9,,,No,1(LAMA),1,No,,No,,cephalic,Longitudinal,2,2,
+36,College or higher,Employed,3,38,1,Spontaneous,Emergency Caesarean section,Yes,YES,Previous scar in labor,,Female,2850,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,1,1
+33,College or higher,Self employed,4,35,1,Spontaneous,Emergency Caesarean section,Yes,YES,Previous scar in labor,,Male,3450,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,3,0,3
+31,College or higher,Employed,1,40,1,Induction of labor,Emergency Caesarean section,Yes,NO,Failed induction of labor,,Male,3040,8,10,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+32,College or higher,Employed,3,38,1,Not applicable,Elective Caesarean section,Yes,YES,Bad obstretic history,,Male,3640,7,8,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,2
+27,College or higher,Employed,1,38,1,Spontaneous,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Male,3060,9,10,,,No,4,3,No,,Yes,Meconium aspiration,cephalic,Longitudinal,1,0,0
+32,College or higher,Employed,3,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,4300,7,8,,,No,4,>4,No,,Yes,,cephalic,Longitudinal,2,0,2
+39,College or higher,Employed,4,35,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,2300,8,9,,,No,4,3,No,,Yes,Preterm with low birth weight,cephalic,Longitudinal,3,0,3
+34,College or higher,Self employed,4,30,1,Not applicable,Emergency Caesarean section,Yes,YES,Previous scar,,Female,1300,5,7,,,No,4,>4,No,,Yes,"Prematurity, Low apgar score, Low birth weight",cephalic,Longitudinal,2,1,2
+1,College or higher,Employed,1,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2990,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+30,College or higher,Employed,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,2910,9,10,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+36,College or higher,Employed,4,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2910,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,3
+35,College or higher,Self employed,2,42,1,Induction of labor,Emergency Caesarean section,Yes,ONE,Previous scar,,Male,3610,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+36,College or higher,Employed,3,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,3700,8,9,,,No,5,4,No,,No,,cephalic,Longitudinal,1,1,1
+33,College or higher,Student,7,40,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3070,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,3,3,3
+46,College or higher,Employed,1,27,2,Spontaneous,Emergency Caesarean section,Yes,NO,Preterm labor with twin pregnancy,,Male,990,"8,8","9,9",1030,,No,4,>14,Yes,Prematurity in twins with ver low birthweight,No,,cephalic,Longitudinal,0,0,0
+33,College or higher,Employed,1,40,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,2980,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+32,College or higher,Employed,1,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,4260,8,9,,,No,2,2,No,,Yes,Macrosomia,cephalic,Longitudinal,0,0,0
+32,College or higher,Self employed,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3580,7,8,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+39,Secondary education,House wife,2,37,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2730,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+34,College or higher,Employed,3,35,2,Spontaneous,Emergency Caesarean section,Yes,NO,Twin pregnancy in labor,,Both twins: Female,2400,"8,8","8,9",1950,,No,3,3,No,,Yes,"Premature, Low birth weight",cephalic,Longitudinal,2,0,2
+32,College or higher,Employed,2,37,1,Not applicable,Emergency Caesarean section,Yes,ONE,Previous scar,,Female,2720,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+32,College or higher,Employed,4,35,1,Spontaneous,Emergency Caesarean section,Yes,YES,Previous scar in labor,,Female,2800,7,8,,,No,3,>3,No,,Yes,Respiratory distress,cephalic,Longitudinal,3,0,3
+34,College or higher,Employed,2,28,1,Not applicable,Emergency Caesarean section,Yes,NO,Pre eclampsia with severe features,,Male,1260,8,9,,,No,9,>14,Yes,Premature with respiratory distress and very low birth weight,No,,cephalic,Longitudinal,1,0,1
+34,College or higher,Employed,3,35,1,Spontaneous,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Female,2540,8,9,,,No,4,3,No,,Yes,Prematurity,cephalic,Longitudinal,2,0,2
+28,College or higher,Self employed,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3170,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+39,College or higher,Employed,8,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,2970,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,3,4,3
+26,College or higher,Employed,1,39,1,Induction of labor,Emergency Caesarean section,Yes,NO,Failed induction of labor,,Female,2840,7,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+24,Secondary education,House wife,1,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3320,7,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+23,Secondary education,House wife,1,28,1,Not applicable,Elective Caesarean section,Yes,NO,Intrauterine growth restriction and grade 3 placenta calcification,,Male,3100,7,9,,,No,2,2,No,,Yes,IUFGR,cephalic,Longitudinal,0,0,0
+37,College or higher,Self employed,4,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,2700,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,3,0,3
+37,College or higher,Self employed,4,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3160,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,1,2
+36,College or higher,Self employed,3,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3400,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,2,0,2
+29,College or higher,Self employed,2,39,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,3300,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,0,1
+40,College or higher,Employed,1,38,1,Not applicable,Elective Caesarean section,Yes,NO,Elderly primigravida,,Male,3890,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+26,Secondary education,House wife,5,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3550,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,4,0,4
+28,College or higher,Employed,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Male,3510,9,9,,,No,4,3,No,,Yes,Transient tachypnea of newborn,cephalic,Longitudinal,1,0,1
+37,College or higher,Employed,3,41,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3260,9,9,,,No,2,1,No,,No,,cephalic,Longitudinal,2,0,2
+31,College or higher,Employed,1,39,1,Not applicable,Elective Caesarean section,Yes,NO,Borderline pelvis,,Male,3680,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+42,College or higher,Self employed,2,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar in labor,,Male,3800,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,1,0,1
+26,College or higher,Self employed,1,39,1,Not applicable,Elective Caesarean section,Yes,NO,Term pregnancy with big baby,,Male,3700,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,0,0,0
+34,Secondary education,House wife,2,32,1,Not applicable,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Male,2180,8,9,,,No,4,>4,Yes,Respiratory distress,Yes,Tranfer from NICU,cephalic,Longitudinal,1,0,1
+29,College or higher,Self employed,3,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3210,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,2
+28,College or higher,Employed,2,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,3000,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,0,1
+41,College or higher,Employed,2,37,1,Spontaneous,Emergency Caesarean section,Yes,ONE,Previous scar in labor,,Female,2280,8,9,,,No,3,3,No,,Yes,Low birth weight,cephalic,Longitudinal,1,0,1
+36,College or higher,Self employed,4,38,1,Not applicable,Elective Caesarean section,Yes,NO,Bad obstretic history,,Male,3200,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,0,3,0
+31,College or higher,Employed,2,27,1,Not applicable,Emergency Caesarean section,Yes,NO,Preterm premature rapture of and oligohydromnios,,Female,810,9,9,,,No,6,>14,Yes,"Premature, very low birth weight, early neonatal sepsis",,,breech,Longitudinal,1,0,0
+28,College or higher,Employed,1,41,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3400,9,10,,,No,3,2,No,,No,,cephalic,Longitudinal,0,0,0
+27,College or higher,Self employed,1,41,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,4080,6,8,,,No,2,2,No,,Yes,Macrosomia,cephalic,Longitudinal,0,0,0
+41,College or higher,Self employed,4,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,2980,8,9,,,No,4,3,No,,Yes,Transient tachypnea of newborn,cephalic,Longitudinal,3,0,3
+32,College or higher,Self employed,4,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,3370,9,10,,,No,4,3,No,,No,,cephalic,Longitudinal,2,1,2
+36,College or higher,Employed,4,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,3680,8,9,,,No,6,>6,No,,Yes,Respiratory distress,cephalic,Longitudinal,2,1,2
+31,Secondary education,House wife,4,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3380,7,8,,,No,2,1,No,,No,,cephalic,Longitudinal,3,0,3
+26,College or higher,Employed,3,41,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3620,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+31,College or higher,Employed,1,38,1,Spontaneous,Emergency Caesarean section,Yes,NO,Poor progress of labor,,Female,2950,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+37,Secondary education,House wife,5,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2750,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,4,0,4
+30,College or higher,Employed,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3440,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,1,0,1
+30,College or higher,Self employed,3,39,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,3210,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+26,College or higher,Self employed,1,41,1,Spontaneous,Emergency Caesarean section,Yes,NO,Big baby,,Male,3720,7,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+25,Secondary education,House wife,1,41,1,Induction of labor,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Male,3110,4,8,,,No,3,2,No,,Yes,Transient tachypnea of newborn,cephalic,Longitudinal,0,0,0
+20,Secondary education,House wife,1,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3550,7,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+37,College or higher,Employed,3,37,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,2880,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+30,College or higher,Employed,1,39,1,Spontaneous,Emergency Caesarean section,Yes,NO,"Big baby with unstable lie, huge fibroid",,Male,4380,9,10,,,No,3,3,No,,Yes,Macrosomia,cephalic,Longitudinal,0,0,0
+26,College or higher,Employed,3,41,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,3520,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+32,College or higher,Employed,4,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,,3120,7,8,,,No,4,3,No,,No,,cephalic,Longitudinal,3,0,3
+33,College or higher,Employed,4,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,4130,8,9,,,No,4,3,No,,Yes,Macrosomia,cephalic,Longitudinal,2,1,2
+30,College or higher,Employed,3,39,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,2870,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,2
+31,College or higher,Self employed,3,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,3080,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,2
+27,College or higher,Employed,1,40,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3480,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,0,0,0
+42,College or higher,Employed,4,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3150,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,3,0,3
+28,College or higher,Employed,1,39,1,Spontaneous,Emergency Caesarean section,Yes,NO,Obstructed labor,,Male,2630,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+31,College or higher,Employed,1,39,1,Spontaneous,Emergency Caesarean section,Yes,NO,Fetal distress,,Female,3050,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+35,College or higher,Self employed,2,36,1,Not applicable,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Female,2100,8,9,,,No,2,>2,No,,Yes,"Prematurity, low birth weight",breech,Longitudinal,1,0,1
+37,College or higher,Student,4,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3530,7,9,,,No,2,1,No,,No,,cephalic,Longitudinal,3,0,3
+41,College or higher,Employed,3,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,3700,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,2
+32,College or higher,Employed,3,41,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,4390,8,9,,,No,3,2,No,,Yes,Macrosomia,cephalic,Longitudinal,2,0,2
+34,College or higher,Self employed,3,37,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,3220,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,1,1
+40,College or higher,Employed,4,29,1,Not applicable,Emergency Caesarean section,Yes,NO,Pre eclampsia with severe features and non reassuring fetal statu,,Male,937,10,10,,,No,4,3,Yes,Premature with very low birth weight,No,,cephalic,Longitudinal,2,1,2
+23,Secondary education,House wife,1,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3710,7,8,,,No,2,1,No,,Yes,Transient tachypnea of newborn,cephalic,Longitudinal,0,0,0
+28,College or higher,Self employed,1,39,1,Not applicable,Emergency Caesarean section,Yes,NO,Cephalopelvic disproportion,,Male,3150,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+29,College or higher,Self employed,3,38,1,Not applicable,Elective Caesarean section,Yes,NO,"Bad obstretic history, breech presentation",,Female,3700,7,8,,,No,3,2,No,,No,,breech,Longitudinal,0,2,0
+37,College or higher,Self employed,5,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,3160,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,4,0,4
+33,College or higher,Employed,5,39,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,3120,9,10,,,No,4,3,No,,No,,cephalic,Longitudinal,3,1,3
+34,College or higher,Employed,2,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,3290,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,0,1
+35,College or higher,Employed,5,37,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,3380,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,4,0,4
+29,Secondary education,House wife,6,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3700,9,9,,,No,2,1,No,,No,,cephalic,Longitudinal,5,0,5
+28,College or higher,Employed,3,41,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3610,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,2,0,2
+31,College or higher,Employed,2,39,1,Not applicable,Elective Caesarean section,Yes,NO,Term pregnancy with breech presentation,,Male,3360,8,10,,,No,4,3,No,,No,,breech,Longitudinal,1,0,1
+41,Secondary education,Employed,5,39,1,Spontaneous,Emergency Caesarean section,Yes,NO,Previous third degree cervical tear in labor,,Male,3360,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,2,2,2
+28,College or higher,Employed,2,38,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3050,8,9,,,No,2,,No,,No,,cephalic,Longitudinal,1,0,1
+34,College or higher,Employed,3,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,3460,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,2,0,2
+21,College or higher,Employed,1,41,1,Spontaneous,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Male,3400,9,9,,,No,5,4,Yes,Fetal distress,Yes,Fetal distress,cephalic,Longitudinal,0,0,0
+33,College or higher,Employed,2,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3380,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+32,College or higher,Employed,2,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Female,2790,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+33,College or higher,Self employed,3,38,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3200,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+24,Secondary education,House wife,2,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,3100,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,0,1
+36,College or higher,Employed,5,36,1,Not applicable,Emergency Caesarean section,Yes,YES,Non reassuring fetal status,,Female,2120,9,10,,,No,3,3,No,,Yes,Late preterm with low birth weight,cephalic,Longitudinal,2,2,2
+30,College or higher,House wife,1,39,1,Not applicable,Elective Caesarean section,Yes,NO,Big baby,,Female,3580,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+34,College or higher,Employed,3,39,1,Not applicable,Emergency Caesarean section,,YES,Previous scar in labor,,Female,3600,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,2
+38,College or higher,Employed,3,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3290,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+30,College or higher,Self employed,4,37,1,Spontaneous,Emergency Caesarean section,Yes,YES,Previous scar in labor,,Male,3070,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,1,2
+25,College or higher,Self employed,1,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3450,9,9,,,No,2,1,No,,No,,cephalic,Longitudinal,0,0,0
+30,College or higher,Self employed,1,40,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3800,8,9,,,No,2,1,No,,No,,cephalic,Longitudinal,0,0,0
+32,College or higher,Employed,2,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,2630,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,0,1
+28,College or higher,Employed,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3320,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,1,0,1
+26,College or higher,Employed,1,39,1,Not applicable,Elective Caesarean section,Yes,NO,Maternal request,,Female,3100,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+34,College or higher,Employed,3,40,1,Spontaneous,Emergency Caesarean section,Yes,ONE,Failed VBAC,,Male,3500,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,1,1
+29,College or higher,Employed,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3670,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+29,College or higher,Self employed,3,39,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,3340,5,9,,,No,4,,No,,No,,cephalic,Longitudinal,2,0,2
+27,College or higher,Self employed,2,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Both : Female,2700,"8,9","8,9",3170,,No,4,3,No,,No,,breech,Longitudinal,1,0,1
+25,College or higher,Student,2,37,1,Not applicable,Emergency Caesarean section,Yes,NO,"Premature rapture of membranes, Maternal request",,Female,3600,7,9,,,No,5,4,No,,No,,cephalic,Longitudinal,0,1,0
+20,Secondary education,House wife,1,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3130,9,10,,,No,2,1,No,,No,,cephalic,Longitudinal,0,0,0
+34,College or higher,Non government employee,3,37,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,2200,8,9,,,No,4,3,No,,Yes,IUFGR,cephalic,Longitudinal,2,0,2
+38,College or higher,Banker,3,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,4520,8,9,,,No,1,1,No,,No,,cephalic,Longitudinal,2,0,2
+38,College or higher,Non government employee,4,37,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,3100,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,3,0,3
+33,College or higher,Non government employee,2,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Female,3300,7,8,,,No,10,>10,Yes,Neonatal sepsis,Yes,Respiratory distress,cephalic,Longitudinal,1,0,1
+34,College or higher,Non government employee,3,41,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3960,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,2,0,2
+37,College or higher,Engineer,4,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3200,9,10,,,No,2,1,No,,No,,cephalic,Longitudinal,3,0,3
+35,College or higher,Government employee,5,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,3000,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,2,2
+31,College or higher,Non government employee,3,38,1,Not applicable,Elective Caesarean section,Yes,NO,Bas obstretic history,,Male,3820,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,1,1
+34,College or higher,Non government employee,2,38,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,4170,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,0,1
+33,College or higher,Government employee,3,34,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,1850,8,9,,,No,3,>3,No,,Yes,Premature with low birth weight,cephalic,Longitudinal,2,0,2
+27,Secondary education,House wife,1,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3290,8,9,,,No,1,1,No,,No,,cephalic,Longitudinal,0,0,0
+39,College or higher,Teacher,5,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,2045,8,9,,,No,2,2,No,,Yes,Low birth weight,cephalic,Longitudinal,4,0,4
+34,College or higher,Self employed,3,32,1,Not applicable,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Female,2230,7,8,,,No,8,>7,Yes,"Premature, Respiratory distress",Yes,"Low birth weight, Respiratory distress",cephalic,Longitudinal,2,0,2
+29,College or higher,Government employee,3,37,1,Spontaneous,Emergency Caesarean section,Yes,NO,Poor progress of labor,,Female,2760,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,2
+34,College or higher,Government employee,1,41,1,Induction of labor,Emergency Caesarean section,Yes,NO,Failed induction of labor,,Female,3300,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+38,Primary education,House wife,3,38,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Male,3620,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,2
+31,College or higher,Government employee,2,38,1,Not applicable,Emergency Caesarean section,Yes,YES,Abruptio placentae,,Female,3630,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+20,Secondary education,House wife,1,35,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2690,2,6,,,No,4,>4,No,,Yes,Respiratory distress,cephalic,Longitudinal,0,0,0
+35,Secondary education,Self employed,2,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2770,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+41,College or higher,Self employed,4,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,3230,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,3,0,3
+27,College or higher,Government employee,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3070,6,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,1,0
+26,College or higher,Self employed,3,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,3300,8,9,,,No,4,7,No,,Yes,"Respiratory distress, Sepsis",cephalic,Longitudinal,1,1,2
+29,College or higher,Non government employee,1,39,1,Induction of labor,Emergency Caesarean section,Yes,NO,Failed induction of labor,,Female,3700,8,9,,,No,5,3,No,,No,,cephalic,Longitudinal,0,0,0
+34,College or higher,Self employed,5,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,2700,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,3,1
+28,College or higher,Photographer,2,39,1,Spontaneous,Emergency Caesarean section,Yes,ONE,Failed VBAC,,Male,3180,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+26,College or higher,Radiographer,2,39,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Female,3000,9,9,,,No,4,2,No,,No,,cephalic,Longitudinal,1,0,1
+32,College or higher,Self employed,5,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,2920,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,3,1,4
+29,College or higher,Government employee,1,40,1,Spontaneous,Emergency Caesarean section,Yes,NO,Prolonged second stage of labour,,Female,2770,6,8,,,No,3,3,No,,Yes,Respiratory distress,cephalic,Longitudinal,0,0,0
+28,College or higher,Non government employee,1,33,1,Not applicable,Emergency Caesarean section,Yes,NO,Pre eclampsia with severe features,,Female,2010,7,9,,,No,5,4,No,,Yes,Premature with low birth weight,cephalic,Longitudinal,0,0,0
+27,College or higher,Government employee,1,38,1,Spontaneous,Emergency Caesarean section,Yes,NO,breech presentation in labour,,Male,3500,8,9,,,No,3,3,No,,No,,breech,Longitudinal,0,0,0
+30,College or higher,Government employee,3,41,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3290,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,2,0
+38,College or higher,Government employee,1,40,1,Induction of labor,Emergency Caesarean section,Yes,NO,Failed induction of labor,,Female,3010,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+36,College or higher,House wife,5,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3980,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,4,0,4
+23,College or higher,Self employed,1,40,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3900,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+33,Secondary education,House wife,6,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3420,8,9,,,No,2,1,No,,No,,cephalic,Longitudinal,5,0,5
+27,Secondary education,House wife,4,37,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2500,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,4
+40,College or higher,Government employee,3,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,3460,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,2
+30,College or higher,Self employed,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3600,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+36,College or higher,Non government employee,5,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,3270,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,3,1,3
+31,College or higher,Non government employee,3,39,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,3550,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,1,1,1
+35,College or higher,Government employee,3,39,2,Spontaneous,Vaginal delivery,No,NO,NA,,Both: male,3300,"8,8","9,9",2990,,No,2,2,No,,No,,cephalic,Longitudinal,2,1,1
+33,College or higher,Engineer,4,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,3300,8,8,,,No,3,2,No,,No,,cephalic,Longitudinal,3,0,3
+46,College or higher,Government employee,1,32,1,Not applicable,Emergency Caesarean section,Yes,NO,"PPROM, Elderly primigravida",,Male,2260,8,10,,,No,6,>7,Yes,"Severe respiratory distress, premature with low birth weight",Yes,"Respiratory distress, premature with low birth weight",cephalic,Longitudinal,0,0,0
+30,College or higher,Administrator,1,41,1,Spontaneous,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Male,3440,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+39,College or higher,Social demograph,3,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3210,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,1,2
+24,College or higher,Self employed,2,41,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Female,3510,9,10,,,No,4,3,No,,No,,cephalic,Longitudinal,1,0,1
+35,Secondary education,House wife,4,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3150,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,3
+39,College or higher,Government employee,3,39,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,3580,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+32,College or higher,Bank officer,3,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,3110,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,2
+34,College or higher,Self employed,4,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,3650,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,3,0,3
+34,College or higher,Lawyer,3,35,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,2380,9,9,,,No,3,2,No,,Yes,"Premature, Low birth weight , Respiratory distress",cephalic,Longitudinal,0,2,0
+26,College or higher,Non government employee,1,38,1,Not applicable,Elective Caesarean section,Yes,NO,Maternal request,,Male,3680,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+32,College or higher,Banker,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3590,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+34,College or higher,Academic administrator,4,41,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,3270,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,3,0,3
+28,College or higher,Student,1,41,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,2780,6,8,,,No,3,2,No,,No,,cephalic,Longitudinal,0,0,0
+35,College or higher,Self employed,4,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3300,9,10,,,No,1,1,No,,No,,cephalic,Longitudinal,3,0,3
+35,College or higher,ISS Officer,3,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,3150,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,2
+27,College or higher,Sales executive,3,38,1,Not applicable,Elective Caesarean section,Yes,YES,Bad obstretic history,,Male,3700,9,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,2,0
+38,College or higher,Teacher,4,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,2970,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,3,0,3
+30,College or higher,Self employed,4,39,1,Not applicable,Elective Caesarean section,Yes,NO,Maternal request,,Female,2870,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,1,2
+36,College or higher,Self employed,5,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3780,9,10,,,No,2,2,No,,No,,cephalic,Longitudinal,3,1,3
+31,College or higher,Pharmacist,3,40,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,2900,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+31,College or higher,Government employee,1,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3390,9,10,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+33,College or higher,Self employed,2,37,1,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Female,2390,7,8,,,No,5,,No,,Yes,Low birth weight,cephalic,Longitudinal,1,0,1
+26,College or higher,Self employed,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3620,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+29,College or higher,Accountant,1,40,1,Induction of labor,Emergency Caesarean section,Yes,NO,Failed induction of labor,,Female,4400,7,9,,,No,4,3,No,,Yes,Macrosomia,cephalic,Longitudinal,0,0,0
+31,College or higher,Self employed,3,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Female,5080,8,9,,,No,4,3,No,,Yes,Macrosomia,cephalic,Longitudinal,2,0,2
+33,College or higher,Government employee,3,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3510,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,2,0,2
+37,College or higher,Self employed,4,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,3840,8,9,,,No,3,,No,,No,,cephalic,Longitudinal,2,1,2
+30,College or higher,House wife,6,37,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2700,8,9,,,No,4,2,No,,No,,cephalic,Longitudinal,3,2,3
+32,College or higher,Non government employee,4,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,2900,8,9,,,No,4,3,No,,No,,breech,Longitudinal,3,0,3
+28,College or higher,Accountant,2,41,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3590,9,9,,,No,3,2,No,,No,,cephalic,Longitudinal,1,0,1
+26,College or higher,Self employed,2,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3730,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+26,Secondary education,House wife,1,40,1,Not applicable,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Female,2600,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+29,College or higher,Self employed,1,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3460,8,9,,,No,3,2,No,,No,,cephalic,Longitudinal,0,0,0
+36,College or higher,Customer care,3,37,1,Not applicable,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Female,2400,8,9,,,Yes,3,>3,No,,Yes,Low birth weight,cephalic,Longitudinal,2,0,2
+29,College or higher,Government employee,1,41,1,Induction of labor,Emergency Caesarean section,Yes,NO,Failed induction of labor,,Male,3920,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,0,0,0
+19,Secondary education,House wife,1,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3550,7,8,,,No,2,2,No,,Yes,Respiratory distress,cephalic,Longitudinal,0,0,0
+38,College or higher,Government employee,3,38,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,3420,8,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,0,2
+29,College or higher,Government employee,1,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3330,7,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+36,College or higher,Banker,4,37,1,Not applicable,Elective Caesarean section,Yes,YES,Previous scar,,Male,3530,7,9,,,No,4,3,No,,No,,cephalic,Longitudinal,2,1,2
+26,College or higher,Government employee,3,41,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,3440,9,10,,,No,2,1,No,,No,,cephalic,Longitudinal,2,1,1
+26,Secondary education,House wife,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3420,8,9,,,No,1,1,No,,No,,cephalic,Longitudinal,1,0,1
+29,College or higher,Self employed,2,41,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,4030,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,0
+32,College or higher,Government employee,2,36,1,Not applicable,Elective Caesarean section,Yes,NO,Maternal request,,Female,2800,9,9,,,No,5,4,No,,Yes,Preterm,cephalic,Longitudinal,0,1,0
+27,Secondary education,House wife,2,40,1,Not applicable,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Female,3670,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+28,College or higher,Government employee,1,38,1,Not applicable,Emergency Caesarean section,Yes,NO,"PROM, Oligohydromnios",,Female,2820,9,9,,,No,4,4,No,,No,,cephalic,Longitudinal,0,0,0
+34,Secondary education,House wife,10,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3430,9,9,,,No,2,1,No,,No,,cephalic,Longitudinal,9,5,4
+26,No formal education,House wife,1,40,1,Induction of labor,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Female,3450,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+31,College or higher,Non government employee,3,39,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Male,3400,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+38,College or higher,None,2,39,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,4100,8,9,,,No,2,2,No,,Yes,Macrosomia,cephalic,Longitudinal,1,0,1
+30,No formal education,unemployed,2,36,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,2450,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+30,College or higher,Government employee,2,39,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,3260,8,9,,,No,3,,No,,No,,cephalic,Longitudinal,1,0,1
+29,College or higher,Self employed,1,37,1,Spontaneous,Emergency Caesarean section,No,NO,Contracted pelvis in labor,,Female,2750,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+34,College or higher,Government employee,3,37,1,Not applicable,Emergency Caesarean section,Yes,YES,Previous caesarean section with scar tenderness,,Female,2730,8,9,,,No,3,3,No,2,No,,cephalic,Longitudinal,2,0,2
+31,No formal education,Self employed,,41,1,Induction of labor,Emergency Caesarean section,No,NO,Failed induction of labor,,,3040,9,9,,,No,3,,No,,Yes,,cephalic,Longitudinal,1,0,0
+30,College or higher,House wife,3,40,1,Induction of labor,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Female,3420,8,9,,,No,4,4,No,,Yes,TTN,cephalic,Longitudinal,2,0,2
+43,College or higher,House wife,11,38,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Female,3780,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,8,2,8
+34,College or higher,Non government employee,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3340,9,10,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+27,College or higher,Non government employee,2,36,2,Not applicable,Elective Caesarean section,Yes,ONE,Previous scar,,Male,2700,8,9,2500,,No,3,3,No,,Yes,,breech,Longitudinal,1,0,1
+26,No formal education,UNEMPLOYED,1,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3170,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+34,College or higher,Non government employee,4,38,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Female,3300,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,1,2
+37,College or higher,Non government employee,4,37,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Female,2890,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,3
+32,College or higher,Non government employee,2,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3170,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+25,No formal education,House wife,1,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3200,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+24,No formal education,unemployed,2,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3510,8,9,,,No,1,1,No,,No,,cephalic,Longitudinal,1,0,1
+19,Secondary education,House wife,1,39,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,3400,9,9,,,No,1,1,No,,No,,cephalic,Longitudinal,0,0,0
+31,College or higher,Non government employee,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,3150,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+36,College or higher,Self employed,5,38,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Male,3210,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,4,0,4
+27,College or higher,Self employed,1,41,1,Induction of labor,Emergency Caesarean section,No,NO,Non reassuring fetal status,,Male,3060,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+35,No formal education,House wife,5,39,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Male,4020,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,4,0,4
+23,No formal education,House wife,2,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3180,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,1,0
+27,No formal education,unemployed,1,39,1,Spontaneous,Emergency Caesarean section,No,NO,Obstructed labor,,Female,3590,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+38,College or higher,Non government employee,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Male,3020,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+31,No formal education,unemployed,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3430,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+30,College or higher,Self employed,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,3870,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+31,College or higher,Non government employee,1,39,1,Not applicable,Elective Caesarean section,No,NO,Anterior Lower segment fibroid,,Female,3680,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+26,College or higher,Non government employee,1,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3200,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+41,College or higher,Non government employee,5,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3360,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,3,1,3
+35,No formal education,House wife,2,39,1,Not applicable,Elective Caesarean section,No,NO,Maternal request,,Female,2890,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+29,College or higher,Non government employee,1,39,1,Spontaneous,Emergency Caesarean section,Yes,NO,Asymmetrical IUGR with Placenta insufficiency,,Male,2040,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+30,No formal education,House wife,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Male,3290,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+31,College or higher,Government employee,1,39,1,Induction of labor,Vaginal delivery,No,NO,NA,,Male,3210,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+38,College or higher,Non government employee,6,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3750,6,7,,,No,2,2,No,,Yes,Birth asphyxia,cephalic,Longitudinal,3,2,3
+37,College or higher,Non government employee,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,4190,8,9,,,No,2,2,No,,Yes,Macrosomia,cephalic,Longitudinal,1,0,1
+35,College or higher,Non government employee,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,3550,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+34,No formal education,Self employed,3,41,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2830,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+28,No formal education,,3,38,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Male,1.449,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,1,1
+34,College or higher,Government employee,4,40,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3920,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,3,0,3
+40,No formal education,House wife,1,37,1,Spontaneous,Emergency Caesarean section,Yes,NO,elderly primegravida + bad obstetric history,,Female,3300,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+35,College or higher,House wife,3,38,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Female,3580,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,0,2
+31,No formal education,,2,38,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Female,3340,9,10,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+36,No formal education,House wife,3,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3050,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+28,No formal education,unemployed,3,37,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3700,2,7,,,No,2,,Yes,Severe Birth asphyxia,No,,cephalic,Longitudinal,2,0,2
+32,No formal education,House wife,3,36,1,Spontaneous,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Male,2700,9,9,,,No,2,,No,,Yes,observation,cephalic,Longitudinal,2,0,2
+40,College or higher,Non government employee,4,39,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Male,2820,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,3,0,3
+31,No formal education,,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,2980,9,10,,,No,0,0,No,,No,,cephalic,Longitudinal,1,0,1
+31,Secondary education,Self employed,4,38,1,Spontaneous,Emergency Caesarean section,Yes,TWO,Previous scar in labor,,Female,3230,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,1,2
+33,Secondary education,House wife,5,37,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,2780,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,2,2
+34,College or higher,Government employee,2,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3810,7,8,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+30,No formal education,House wife,3,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3800,8,9,,,No,1,1,No,,No,,cephalic,Longitudinal,1,1,1
+23,College or higher,Non government employee,1,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3020,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+28,No formal education,,2,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3100,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+27,College or higher,student,1,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3180,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+28,College or higher,Self employed,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Male,3510,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+31,College or higher,Non government employee,2,35,1,Spontaneous,Emergency Caesarean section,Yes,ONE,Previous scar in labor,,Male,2700,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+27,No formal education,unemployed,1,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3740,8,10,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+30,College or higher,Non government employee,1,38,1,Spontaneous,Emergency Caesarean section,No,NO,poor progression of labor,,,3660,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+32,College or higher,Non government employee,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3420,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+32,College or higher,Non government employee,1,38,1,Spontaneous,Emergency Caesarean section,Yes,NO,Obstructed labor,,Male,3040,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+38,College or higher,Non government employee,6,39,1,Not applicable,Elective Caesarean section,Yes,NO,Breech,,Female,3970,8,9,,,Yes,3,3,No,,No,,breech,Longitudinal,4,1,4
+38,College or higher,Non government employee,2,39,1,Induction of labor,Emergency Caesarean section,Yes,NO,Prolonged latent phase,,Male,3490,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,0,1,0
+25,College or higher,Non government employee,1,40,1,Spontaneous,Emergency Caesarean section,Yes,NO,Obstructed labor,,Male,3080,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+40,College or higher,Non government employee,3,39,1,Not applicable,Elective Caesarean section,No,YES,Previous scar+ Gestational diabetes+Oligohydromnios,,Female,3450,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,1,1
+27,College or higher,Non government employee,2,40,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Male,2830,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+28,College or higher,Non government employee,2,39,1,Spontaneous,Vaginal delivery,Yes,NO,NA,,Female,2600,1,0,,,Yes,0,0,Yes,Severe Birth asphyxia,No,,cephalic,Longitudinal,0,1,0
+27,College or higher,House wife,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Male,3500,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+35,College or higher,House wife,3,40,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,3660,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,2,0,2
+37,College or higher,Government employee,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,3400,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+31,College or higher,Non government employee,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3150,8,9,,,Yes,1,1,No,,No,,cephalic,Longitudinal,1,0,1
+33,College or higher,Non government employee,2,39,1,Spontaneous,Emergency Caesarean section,Yes,ONE,Previous scar in labor,,Male,3800,9,10,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+29,College or higher,Non government employee,3,38,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Male,3610,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,1,1
+26,College or higher,Self employed,1,43,1,Induction of labor,Emergency Caesarean section,Yes,NO,Failed induction of labor,,Male,3700,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,0,0,0
+30,College or higher,Non government employee,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,4300,8,9,,,No,2,2,No,,Yes,Macrosomia for observation,cephalic,Longitudinal,1,0,1
+34,College or higher,Self employed,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3660,8,8,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+39,No formal education,Employed,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,3630,7,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+30,College or higher,Employed,3,38,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Male,3040,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,2,0,1
+34,College or higher,Employed,1,36,1,Spontaneous,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,Male,1920,9,9,,,No,3,,,Respiratory distress syndrome,Yes,prematurity+TTN,cephalic,Longitudinal,0,0,0
+44,College or higher,Employed,6,27,1,Induction of labor,Vaginal delivery,No,NO,NA,,Female,480,0,0,,,No,2,2,No,,No,,cephalic,Longitudinal,4,1,2
+43,College or higher,Employed,1,37,1,Not applicable,Elective Caesarean section,No,NO,Fibroids+Breech presentation,,Female,3200,8,9,,,No,3,3,No,,Yes,infant of diabetic mother-observation,cephalic,Longitudinal,0,0,0
+33,College or higher,Employed,1,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3040,9,10,,,No,2,2,No,,No,,cephalic,Longitudinal,0,0,0
+25,No formal education,House wife,1,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3930,9,9,,,No,1,1,No,,No,,cephalic,Longitudinal,0,0,0
+32,College or higher,Employed,5,38,1,Not applicable,Emergency Caesarean section,Yes,NO,Non reassuring fetal status,,,3200,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,4,0,4
+27,College or higher,Employed,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3170,9,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+33,College or higher,Employed,5,38,1,Spontaneous,Elective Caesarean section,No,YES,Previous scar,,,2500,8,9,,,No,3,3,No,,Yes,TTN,cephalic,Longitudinal,2,2,2
+27,No formal education,House wife,2,39,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3260,9,9,,,No,1,1,No,,No,,cephalic,Longitudinal,1,0,1
+27,College or higher,Self employed,2,38,1,Spontaneous,Emergency Caesarean section,No,ONE,OLIGOHYDROMIOS + PREVIOUS SCAR,,,3480,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+40,College or higher,Employed,3,38,1,Spontaneous,Emergency Caesarean section,No,YES,Previous scar in labor,,Male,4700,9,9,,,No,2,2,No,,Yes,MACROSOMIA,cephalic,Longitudinal,4,3,0
+36,No formal education,Employed,4,38,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Male,3730,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,3,0,3
+37,College or higher,Employed,4,38,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Male,3520,8,9,,,No,3,3,No,,No,,cephalic,Longitudinal,3,0,3
+26,College or higher,House wife,2,36,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar in labor,,Male,3090,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,1,0,1
+34,College or higher,Employed,1,36,1,Not applicable,Elective Caesarean section,No,NO,+Placenta previa + Breech presentation+ precious baby+PIH+,,Male,2520,7,8,,,No,2,2,No,,No,,breech,Longitudinal,0,0,0
+25,Secondary education,Self employed,2,38,1,Not applicable,Elective Caesarean section,No,ONE,Previous scar,,Female,3260,8,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+31,No formal education,Self employed,2,38,1,Spontaneous,Vaginal delivery,No,NO,NA,,Male,3440,7,9,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+33,College or higher,Employed,2,40,1,Spontaneous,Vaginal delivery,No,NO,NA,,Female,3630,7,8,,,No,2,2,No,,No,,cephalic,Longitudinal,1,0,1
+39,No formal education,Self employed,4,39,1,Not applicable,Elective Caesarean section,No,YES,Previous scar,,Male,2810,9,9,,,No,3,3,No,,No,,cephalic,Longitudinal,3,0,3

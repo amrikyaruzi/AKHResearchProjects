@@ -1,0 +1,488 @@
+rm(list = ls())
+cat("\014")
+
+library(tidyverse)
+library(janitor)
+library(here)
+library(lubridate)
+library(readxl)
+library(glue)
+library(gt)
+library(openxlsx)
+
+
+
+## Pre-intervention group
+
+pre_data <- read.csv(here("./Data/Pre/Pre-intervention data after cleaup and categorization 10 Feb 25.csv"))
+
+
+pre_data1 <- pre_data %>% clean_names()
+
+pre_data1 <- pre_data1 %>% relocate(c(parity, miscarriage, lie), .after = gravidity)
+
+colnames(pre_data1) %>% sort()
+
+# pre_data1 <- pre_data1 %>% rename_with(.cols = c("previos_scar", "number_of_fetus"),
+#                                ~c("previous_scar", "number_of_foetuses"))
+
+pre_data1 %>% reframe(across(.cols = c("parity", "number_of_foetuses", "presentation", "gestational_age_weeks",
+                                   "onset_of_labour", "previous_scar_refactored"),
+                         ~sum(is.na(.x))))
+
+
+# pre_data1 %>% filter(is.na(parity))
+
+
+pre_data1 %>%
+  select("parity", "number_of_foetuses", "presentation", "gestational_age_weeks", "onset_of_labour",
+         "previous_scar_refactored") %>%
+  map_df(.f = ~str_c(sort(unique(.x)), collapse = ", ")) %>%
+  pivot_longer(cols = everything(), names_to = "column", values_to = "unique_entries")
+
+
+# pre_data1 <- pre_data1 %>% mutate(previous_scar_refactored = fct_collapse(previous_scar,
+#                                                                   "Yes" = c("ONE", "TWO", "THREE", "YES"),
+#                                                                   "No" = c("NO")))
+
+
+
+pre_data1 <- pre_data1 %>% mutate(onset_of_labour = case_when(
+  onset_of_labour %in% c("Induction of labour", "Induced") ~ "induced",
+  onset_of_labour %in% c("Not applicable", "No labour(Pre labor C / S)\xa0", "Pre labor CS") ~ "no labour (pre labor c/s)",
+  onset_of_labour %in% c("spontaneous", "Spontaneous", "Spontaneous onset") ~ "spontaneous",
+  TRUE ~ onset_of_labour)) %>%
+  
+  mutate(across(.cols = c("parity", "gestational_age_weeks"),
+                as.numeric),
+         across(.cols = c("onset_of_labour", "presentation", "previous_scar_refactored"),
+                str_to_lower))
+
+pre_data1 %>%
+  select("parity", "number_of_foetuses", "presentation", "gestational_age_weeks", "previous_scar_refactored",
+         "onset_of_labour") %>%
+  map_df(.f = ~str_c(sort(unique(.x)), collapse = ", ")) %>%
+  pivot_longer(cols = everything(), names_to = "column", values_to = "unique_entries")
+
+
+
+## Categorizing peach participant's data into the Robson 10 groups
+
+pre_data1 <- pre_data1 %>% 
+  mutate(group = case_when(
+    parity == 0 & number_of_foetuses == 1 & presentation == "cephalic" & gestational_age_weeks >= 37 &
+      onset_of_labour == "spontaneous" ~ "1", #Group 1
+    
+    parity == 0 & number_of_foetuses == 1 & presentation == "cephalic" & gestational_age_weeks >= 37 &
+      (onset_of_labour == "induced" | onset_of_labour == "no labour (pre labor c/s)") ~ "2", #Group 2
+    
+    parity >= 1 & previous_scar_refactored == "no" & number_of_foetuses == 1 & presentation == "cephalic" & gestational_age_weeks >= 37 &
+      onset_of_labour == "spontaneous" ~ "3", #Group 3
+    
+    parity >= 1 & previous_scar_refactored == "no" & number_of_foetuses == 1 & presentation == "cephalic" & gestational_age_weeks >= 37 &
+      (onset_of_labour == "induced" | onset_of_labour == "no labour (pre labor c/s)") ~ "4", #Group 4
+    
+    parity >= 1 & previous_scar_refactored == "yes" & number_of_foetuses == 1 & presentation == "cephalic" &
+      gestational_age_weeks >= 37 ~ "5", #Group 5
+    
+    parity == 0 & number_of_foetuses == 1 & presentation == "breech" ~ "6", #Group 6
+    
+    parity >= 1 & number_of_foetuses == 1 & presentation == "breech" ~ "7", #Group 7
+    
+    number_of_foetuses > 1 ~ "8", #Group 8
+    
+    number_of_foetuses == 1 & (lie == "oblique" | lie == "transverse") ~ "9", #Group 9
+    
+    number_of_foetuses == 1 & presentation == "cephalic" & gestational_age_weeks < 37 ~ "10", #Group 10
+    
+    TRUE ~ "Unclassifiable"
+  ))
+
+
+pre_data1 <- pre_data1 %>% mutate(group = factor(group,
+                                         levels = c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10",  "Unclassifiable")))
+
+
+pre_data1 <- pre_data1 %>% mutate(group_description = case_when(
+  
+  group == "1" ~ "Nulliparous women with a single cephalic pregnancy, ≥37 weeks gestation in spontaneous labour",
+  
+  group == "2" ~ "Nulliparous women with a single cephalic pregnancy, ≥37 weeks gestation who had labour induced or were delivered by CS before labour",
+  
+  group == "3" ~ "Multiparous women without a previous CS, with a single cephalic pregnancy, ≥37 weeks gestation in spontaneous labour",
+  
+  group == "4" ~ "Multiparous women without a previous CS, with a single cephalic pregnancy, ≥37 weeks gestation who had labour induced or were delivered by CS before labour",
+  
+  group == "5" ~ "All multiparous women with at least one previous CS, with a single cephalic pregnancy, ≥37 weeks gestation",
+  
+  group == "6" ~ "All nulliparous women with a single breech pregnancy",
+  
+  group == "7" ~ "All multiparous women with a single breech pregnancy including women with previous CS(s)",
+  
+  group == "8" ~ "All women with multiple pregnancies including women with previous CS(s)",
+  
+  group == "9" ~ "All women with a single pregnancy with a transverse or oblique lie, including women with previous CS(s)",
+  
+  group == "10" ~ "All women with a single cephalic pregnancy < 37 weeks gestation, including women with previous CS(s)",
+  
+  group == "Unclassifiable" ~ "Unclassifiable"
+  
+))
+
+
+group_size <- pre_data1 %>% group_by(group, group_description) %>% #refactored emergency & elective cs as one
+  summarise(Total = n()) %>% ungroup()
+
+# pre_data1 <- pre_data1 %>% mutate(mode_of_delivery_refactored = case_when(
+#   mode_of_delivery %in% c("Vaginal delivery") ~ "SVD",
+#   TRUE ~ mode_of_delivery
+# ))
+
+pre_data1 <- pre_data1 %>% mutate(mode_of_delivery_refactored = case_when(
+  mode_of_delivery_refactored %in% c("Vaginal delivery") ~ "SVD",
+  mode_of_delivery_refactored %in% c("Elective Caesarean section", "Elective C / S") ~ "Elective Caesarean section",
+  mode_of_delivery_refactored %in% c("Emergency Caesarean section", "Emergency C / S") ~ "Emergency Caesarean section",
+  TRUE ~ mode_of_delivery_refactored
+))
+
+group_cs <- pre_data1 %>% filter(mode_of_delivery_refactored %in% c("Elective Caesarean section",
+                                                     "Emergency Caesarean section")) %>%
+  group_by(group, group_description) %>% summarise(CS_no = n()) %>% ungroup()
+
+table <- right_join(x = group_cs, y = group_size) %>% mutate(CS_no = replace_na(CS_no, 0)) #Important line. Helps with ensuring NA's (meaning no CSs in group) are replaced with 0's
+
+table <- table %>% arrange(group) #since the arrangement will be disturbed if any of the groups has 0,s in CS 
+rm(group_cs, group_size)
+
+
+total_cs <- sum(table$CS_no)
+total_patients <- sum(table$Total)
+
+
+table1 <- table %>% mutate(group_size_perc = Total*100/total_patients,
+                           group_cs_rate_perc = CS_no*100/Total,
+                           absol_contribution_perc = CS_no*100/total_patients,
+                           relat_contribution_perc = CS_no*100/total_cs) %>% 
+  mutate(across(where(is.numeric), ~ifelse(.x != 100, round_half_up(.x, digits = 1), .))) %>%
+  mutate(across(where(is.numeric), ~gsub(pattern = 100.00, replacement = 100, x = .x)))
+
+
+
+# Further manipulation of the table continue
+
+table2 <- table1 %>% mutate(robson_guidelines = case_when(
+  
+  group == "1" ~ "<10%",
+  group == "2" ~ "20-35%",
+  group == "3" ~ "No higher than 3%",
+  group == "4" ~ "Rarely >15%",
+  group == "5" ~ "50-60%",
+  (group == "6" | group == "7") ~ "80-100%",
+  group == "8" ~ "60%",
+  group == "9" ~ "100%",
+  group == "10" ~ "Around 30%",
+  group == "Unclassifiable" ~ "-",
+  TRUE ~ ""
+  
+)) %>% relocate(robson_guidelines, .after = group_cs_rate_perc)
+
+
+
+graph_table <- table2 %>%
+  
+  gt() %>%
+  
+  tab_header(title = md("**AKH Dar es Salaam Caesarean Sections Classified according to the WHO Robson Classification System - Pre-intervention group**")) %>%
+  tab_footnote(footnote = paste("Total number of CS = ", as.character(total_cs)),
+               locations = cells_column_labels(columns = CS_no)) %>%
+  
+  tab_footnote(footnote = paste("Total number of deliveries = ", as.character(total_patients)),
+               locations = cells_column_labels(columns = Total)) %>%
+  
+  tab_footnote(footnote = "Group size (%) = n of women in the group / total N women delivered in the hospital x 100",
+               locations = cells_column_labels(columns = group_size_perc)) %>%
+  
+  tab_footnote(footnote = "Group CS rate (%) = n of CS in the group / total N of women in the group x 100",
+               locations = cells_column_labels(columns = group_cs_rate_perc)) %>%
+  
+  tab_footnote(footnote = "Absolute contribution (%) = n of CS in the group / total N of women delivered in the hospital x 100",
+               locations = cells_column_labels(columns = absol_contribution_perc)) %>%
+  
+  tab_footnote(footnote = "Relative contribution (%) = n of CS in the group / total N of CS in the hospital x 100",
+               locations = cells_column_labels(columns = relat_contribution_perc)) %>%
+  cols_align(align = "center",
+             columns = everything()) %>% 
+  
+  cols_align(align = "left",
+             columns = c("group_description")) %>% #was center
+  
+  tab_footnote(footnote = gt::html("<i>Groups for which no data is displayed on the table (if any) had 0 deliveries falling under them</i><br><br>"), placement = "right") %>%
+  
+  cols_label(group = "Group",
+             group_description = "Description",
+             CS_no = "Number of CS in group",
+             Total = "Number of women in group",
+             group_size_perc = "Group Size (%)",
+             group_cs_rate_perc = "Group CS rate (%)",
+             robson_guidelines = "WHO (Robson) recommended CS rate",
+             absol_contribution_perc = "Absolute group contribution to overall CS rate (%)",
+             relat_contribution_perc = "Relative contribution of group to overall CS rate (%)")
+
+print(graph_table)
+
+gtsave(data = graph_table, here(glue("./Output/Pre-intervention Robson Classification Table {format(Sys.Date(), '%d %b %y')}.html")))
+
+pre_data_for_saving <- pre_data1 %>% select(age_years, gravidity, parity, miscarriage, living, number_of_foetuses,
+                                            gestational_age_weeks, onset_of_labour, lie, presentation,
+                                            previous_scar_refactored, group, group_description,
+                                            mode_of_delivery_refactored,
+                                            indication_of_operative_delivery,
+                                            gender_of_the_baby, birth_weight:reason_for_ndhu_admission)
+
+
+openxlsx::write.xlsx(pre_data_for_saving, file = here(glue("./Output/Pre-intervention data after cleaup and categorization {format(Sys.Date(), '%d %b %y')}.xlsx")))
+
+
+## Post-intervention group
+
+post_data <- read.csv(here("./Data/Post/Post-intervention data after cleaup and categorization 10 Feb 24.csv"))
+
+
+post_data1 <- post_data %>% clean_names()
+
+colnames(post_data1) %>% sort()
+
+post_data1 <- post_data1 %>% relocate(c(parity, miscarriage, lie), .after = gravidity)
+
+# post_data1 <- post_data1 %>% rename_with(.cols = c("no_of_previous_csection", "number_of_foetus", "ga_weeks"),
+#                                          ~c("previous_scar", "number_of_foetuses", "gestational_age_weeks"))
+
+post_data1 %>% reframe(across(.cols = c("parity", "number_of_foetuses", "presentation", "gestational_age_weeks",
+                                   "onset_of_labour", "previous_scar_refactored"),
+                         ~sum(is.na(.x))))
+
+
+post_data1 %>%
+  select("parity", "number_of_foetuses", "presentation", "gestational_age_weeks", "onset_of_labour",
+         "previous_scar_refactored") %>%
+  map_df(.f = ~str_c(sort(unique(.x)), collapse = ", ")) %>%
+  pivot_longer(cols = everything(), names_to = "column", values_to = "unique_entries")
+
+
+# post_data1 %>% filter(is.na(onset_of_labour))
+
+post_data1 <- post_data1 %>% mutate(previous_scar_refactored = fct_collapse(previous_scar_refactored,
+                                                                  "Yes" = c("yes", "1", "2", "3", "4"),
+                                                                  "No" = c("no", "0", "N/A", "NN")),
+                                    onset_of_labour = fct_collapse(onset_of_labour,
+                                                                  "induced" = c("induced", "Induced"),
+                                                                  "no labour (pre labor c/s)" = c("Elective C/S", "n/A", "N/A",
+                                                                                                  "No labour",
+                                                                                                  "No labour(Pre labor C / S)"),
+                                                                  "spontaneous" = c("Spontaneous", "spontaneous")))
+
+
+
+post_data1 <- post_data1 %>% 
+  mutate(across(.cols = c("parity", "number_of_foetuses", "gestational_age_weeks"),
+                as.numeric),
+         across(.cols = c("onset_of_labour", "lie", "presentation", "previous_scar_refactored"),
+                str_to_lower))
+
+post_data1 %>%
+  select("parity", "number_of_foetuses", "presentation", "gestational_age_weeks", "onset_of_labour",
+         "previous_scar_refactored") %>%
+  map_df(.f = ~str_c(sort(unique(.x)), collapse = ", ")) %>%
+  pivot_longer(cols = everything(), names_to = "column", values_to = "unique_entries")
+
+
+
+## Categorizing peach participant's data into the Robson 10 groups
+
+post_data1 <- post_data1 %>% 
+  mutate(group = case_when(
+    parity == 0 & number_of_foetuses == 1 & presentation == "cephalic" & gestational_age_weeks >= 37 &
+      onset_of_labour == "spontaneous" ~ "1", #Group 1
+    
+    parity == 0 & number_of_foetuses == 1 & presentation == "cephalic" & gestational_age_weeks >= 37 &
+      (onset_of_labour == "induced" | onset_of_labour == "no labour (pre labor c/s)") ~ "2", #Group 2
+    
+    parity >= 1 & previous_scar_refactored == "no" & number_of_foetuses == 1 & presentation == "cephalic" & gestational_age_weeks >= 37 &
+      onset_of_labour == "spontaneous" ~ "3", #Group 3
+    
+    parity >= 1 & previous_scar_refactored == "no" & number_of_foetuses == 1 & presentation == "cephalic" & gestational_age_weeks >= 37 &
+      (onset_of_labour == "induced" | onset_of_labour == "no labour (pre labor c/s)") ~ "4", #Group 4
+    
+    parity >= 1 & previous_scar_refactored == "yes" & number_of_foetuses == 1 & presentation == "cephalic" &
+      gestational_age_weeks >= 37 ~ "5", #Group 5
+    
+    parity == 0 & number_of_foetuses == 1 & presentation == "breech" ~ "6", #Group 6
+    
+    parity >= 1 & number_of_foetuses == 1 & presentation == "breech" ~ "7", #Group 7
+    
+    number_of_foetuses > 1 ~ "8", #Group 8
+    
+    number_of_foetuses == 1 & (lie == "oblique" | lie == "transverse") ~ "9", #Group 9
+    
+    number_of_foetuses == 1 & presentation == "cephalic" & gestational_age_weeks < 37 ~ "10", #Group 10
+    
+    TRUE ~ "Unclassifiable"
+  ))
+
+
+post_data1 <- post_data1 %>% mutate(group = factor(group,
+                                         levels = c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10",  "Unclassifiable")))
+
+
+post_data1 <- post_data1 %>% mutate(group_description = case_when(
+  
+  group == "1" ~ "Nulliparous women with a single cephalic pregnancy, ≥37 weeks gestation in spontaneous labour",
+  
+  group == "2" ~ "Nulliparous women with a single cephalic pregnancy, ≥37 weeks gestation who had labour induced or were delivered by CS before labour",
+  
+  group == "3" ~ "Multiparous women without a previous CS, with a single cephalic pregnancy, ≥37 weeks gestation in spontaneous labour",
+  
+  group == "4" ~ "Multiparous women without a previous CS, with a single cephalic pregnancy, ≥37 weeks gestation who had labour induced or were delivered by CS before labour",
+  
+  group == "5" ~ "All multiparous women with at least one previous CS, with a single cephalic pregnancy, ≥37 weeks gestation",
+  
+  group == "6" ~ "All nulliparous women with a single breech pregnancy",
+  
+  group == "7" ~ "All multiparous women with a single breech pregnancy including women with previous CS(s)",
+  
+  group == "8" ~ "All women with multiple pregnancies including women with previous CS(s)",
+  
+  group == "9" ~ "All women with a single pregnancy with a transverse or oblique lie, including women with previous CS(s)",
+  
+  group == "10" ~ "All women with a single cephalic pregnancy < 37 weeks gestation, including women with previous CS(s)",
+  
+  group == "Unclassifiable" ~ "Unclassifiable"
+  
+))
+
+
+post_data1 %>% filter(group == "Unclassifiable") %>%
+  select(parity, number_of_foetuses, lie, presentation, gestational_age_weeks, onset_of_labour, group)
+
+group_size <- post_data1 %>% group_by(group, group_description) %>% #refactored emergency & elective cs as one
+  summarise(Total = n()) %>% ungroup()
+
+# post_data1 <- post_data1 %>% mutate(mode_of_delivery_refactored = fct_collapse(mode_of_delivery,
+#                                                                  "Elective Caesarean section" = c("Elective C / S", "Elective C/S",
+#                                                                                                   "Elective C/s"),
+#                                                                  "Emergency Caesarean section" = c("Emergency C / S",
+#                                                                                                    "Emergency cesarean section",
+#                                                                                                    "Emergency C/S"),
+#                                                                  "SVD" = c("Assisted vaginal breech delivery",
+#                                                                            "SVD")))
+
+
+post_data1 <- post_data1 %>% mutate(mandatory_second_opinion_inquired = case_when(
+  mandatory_second_opinion_inquired %in% c("YES", "Y") ~ "Yes",
+  mandatory_second_opinion_inquired %in% c("NO") ~ "No",
+  
+  TRUE ~ mandatory_second_opinion_inquired
+))
+
+group_cs <- post_data1 %>% filter(mode_of_delivery_refactored %in% c("Elective Caesarean section",
+                                                                     "Emergency Caesarean section")) %>%
+  group_by(group, group_description) %>% summarise(CS_no = n()) %>% ungroup()
+
+table <- right_join(x = group_cs, y = group_size) %>% mutate(CS_no = replace_na(CS_no, 0)) #Important line. Helps with ensuring NA's (meaning no CSs in group) are replaced with 0's
+
+table <- table %>% arrange(group) #since the arrangement will be disturbed if any of the groups has 0,s in CS 
+rm(group_cs, group_size)
+
+
+total_cs <- sum(table$CS_no)
+total_patients <- sum(table$Total)
+
+
+table1 <- table %>% mutate(group_size_perc = Total*100/total_patients,
+                           group_cs_rate_perc = CS_no*100/Total,
+                           absol_contribution_perc = CS_no*100/total_patients,
+                           relat_contribution_perc = CS_no*100/total_cs) %>% 
+  mutate(across(where(is.numeric), ~ifelse(.x != 100, round_half_up(.x, digits = 1), .))) %>%
+  mutate(across(where(is.numeric), ~gsub(pattern = 100.00, replacement = 100, x = .x)))
+
+
+
+# Further manipulation of the table continue
+
+table2 <- table1 %>% mutate(robson_guidelines = case_when(
+  
+  group == "1" ~ "<10%",
+  group == "2" ~ "20-35%",
+  group == "3" ~ "No higher than 3%",
+  group == "4" ~ "Rarely >15%",
+  group == "5" ~ "50-60%",
+  (group == "6" | group == "7") ~ "80-100%",
+  group == "8" ~ "60%",
+  group == "9" ~ "100%",
+  group == "10" ~ "Around 30%",
+  group == "Unclassifiable" ~ "-",
+  TRUE ~ ""
+  
+)) %>% relocate(robson_guidelines, .after = group_cs_rate_perc)
+
+
+
+graph_table <- table2 %>%
+  
+  gt() %>%
+  
+  tab_header(title = md("**AKH Dar es Salaam Caesarean Sections Classified according to the WHO Robson Classification System - Post-intervention group**")) %>%
+  tab_footnote(footnote = paste("Total number of CS = ", as.character(total_cs)),
+               locations = cells_column_labels(columns = CS_no)) %>%
+  
+  tab_footnote(footnote = paste("Total number of deliveries = ", as.character(total_patients)),
+               locations = cells_column_labels(columns = Total)) %>%
+  
+  tab_footnote(footnote = "Group size (%) = n of women in the group / total N women delivered in the hospital x 100",
+               locations = cells_column_labels(columns = group_size_perc)) %>%
+  
+  tab_footnote(footnote = "Group CS rate (%) = n of CS in the group / total N of women in the group x 100",
+               locations = cells_column_labels(columns = group_cs_rate_perc)) %>%
+  
+  tab_footnote(footnote = "Absolute contribution (%) = n of CS in the group / total N of women delivered in the hospital x 100",
+               locations = cells_column_labels(columns = absol_contribution_perc)) %>%
+  
+  tab_footnote(footnote = "Relative contribution (%) = n of CS in the group / total N of CS in the hospital x 100",
+               locations = cells_column_labels(columns = relat_contribution_perc)) %>%
+  cols_align(align = "center",
+             columns = everything()) %>% 
+  
+  cols_align(align = "left",
+             columns = c("group_description")) %>% #was center
+  
+  tab_footnote(footnote = gt::html("<i>Groups for which no data is displayed on the table (if any) had 0 deliveries falling under them</i><br><br>"), placement = "right") %>%
+  
+  cols_label(group = "Group",
+             group_description = "Description",
+             CS_no = "Number of CS in group",
+             Total = "Number of women in group",
+             group_size_perc = "Group Size (%)",
+             group_cs_rate_perc = "Group CS rate (%)",
+             robson_guidelines = "WHO (Robson) recommended CS rate",
+             absol_contribution_perc = "Absolute group contribution to overall CS rate (%)",
+             relat_contribution_perc = "Relative contribution of group to overall CS rate (%)")
+
+
+print(graph_table)
+
+gtsave(data = graph_table, here(glue("./Output/Post-intervention Robson Classification Table {format(Sys.Date(), '%d %b %y')}.html")))
+
+post_data_for_saving <- post_data1 %>% select(age_years, gravidity, parity, miscarriage, living, number_of_foetuses,
+                                              gestational_age_weeks, onset_of_labour, lie, presentation,
+                                              previous_scar_refactored, group, group_description,
+                                              mode_of_delivery_refactored,
+                                              mandatory_second_opinion_inquired,
+                                              indication_of_operative_delivery, gender_of_the_baby,
+                                              baby_weight_in_grams:others)
+
+openxlsx::write.xlsx(post_data_for_saving, file = glue(here("./Output/Post-intervention data after cleaup and categorization {format(Sys.Date(), '%d %b %y')}.xlsx")))
+
+
+cat("\014")
+
+rm(list = ls())
